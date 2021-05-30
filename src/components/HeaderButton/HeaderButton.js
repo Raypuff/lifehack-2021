@@ -1,4 +1,5 @@
 import styles from "./HeaderButton.module.css";
+import { Link } from "react-scroll";
 
 const HeaderButton = ({ buttonName }) => {
   const names = {
@@ -8,7 +9,11 @@ const HeaderButton = ({ buttonName }) => {
     faq: "FAQ",
     sponsors: "Sponsors",
   };
-  return <div className={styles.headerButton}>{names[buttonName]}</div>;
+  return (
+    <Link className={styles.headerButton} to={buttonName} smooth={true}>
+      {names[buttonName]}
+    </Link>
+  );
 };
 
 export default HeaderButton;
