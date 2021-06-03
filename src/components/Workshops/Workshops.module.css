@@ -1,5 +1,5 @@
 .workshops {
-  height: 90vh;
+  height: 130vh;
   width: 90%;
   margin: auto;
   text-align: center;
@@ -10,8 +10,8 @@
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 700;
   color: #5db6ff;
 }
 
@@ -47,5 +47,5 @@ p {
 
 .descriptionCol:hover {
   box-shadow: 0 0 20px 0px rgba(34, 188, 226, 0.76);
-  height: 60vh;
+  height: 40vh;
 }

@@ -1,3 +1,31 @@
 .sponsors {
-  height: 60vh;
+  /* height: 60vh; */
+  position: relative;
+  padding: 7em 5em 7em 5em;
+  background: #002054;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.sponsorList {
+  overflow: hidden;
+  margin: 0em auto;
+  padding: 0;
+}
+
+.organizerList {
+  overflow: hidden;
+  margin: 0em auto;
+  padding: 0;
+}
+
+.trainerList {
+  overflow: hidden;
+  margin: 0em auto;
+  padding: 0;
+}
+
+div {
+  display: block;
 }
