@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Timeline from "./components/Timeline";
+import HackTimeline from "./components/Timeline";
 import Workshops from "./components/Workshops";
 import Prizes from "./components/Prizes";
 import FAQ from "./components/FAQ";
@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <Header />
       <Main />
-      <Timeline />
+      <HackTimeline />
       <Workshops />
       <Prizes />
       <FAQ />
