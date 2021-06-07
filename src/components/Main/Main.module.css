@@ -1,3 +1,28 @@
 .mainBody {
+  display: flex;
   height: 60vh;
+}
+
+.myimage {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.text {
+  display: inline-flexbox;
+  text-align: center;
+  margin: auto;
+}
+
+.description {
+  display: block;
+  width: 400px;
+  text-align: center;
+  border-color: aquamarine;
+  border-width: 50px;
+  margin: auto;
 }
