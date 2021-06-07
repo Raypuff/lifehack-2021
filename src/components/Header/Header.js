@@ -2,14 +2,21 @@ import logo from "./lifehack-logo-600x450.png";
 import styles from "./Header.module.css";
 import { useState } from "react";
 import { Link } from "react-scroll";
+// import { Link as LinkR } from "react-router-dom";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
 
+  function closeNavActive() {
+    if (navActive) {
+      setNavActive(false);
+    }
+  }
+
   return (
     <nav className={styles.nav}>
       <div className={styles.logoContainer}>
-        <Link to="main" smooth={true}>
+        <Link to="main" onClick={closeNavActive} smooth={true}>
           <img
             className={styles.logo}
             title="LifeHack 2021"
@@ -20,34 +27,39 @@ const Header = () => {
       </div>
       <ul className={navActive ? styles.navActive : styles.navLinks}>
         <li>
-          <Link to="timeline" smooth={true}>
+          <Link to="timeline" onClick={closeNavActive} smooth={true}>
             Timeline
           </Link>
         </li>
         <li>
-          <Link to="workshops" smooth={true}>
+          <Link to="workshops" onClick={closeNavActive} smooth={true}>
             Workshops
           </Link>
         </li>
         <li>
-          <Link to="prizes" smooth={true}>
+          <Link to="prizes" onClick={closeNavActive} smooth={true}>
             Prizes
           </Link>
         </li>
         <li>
-          <Link to="faq" smooth={true}>
+          <Link to="faq" onClick={closeNavActive} smooth={true}>
             FAQ
           </Link>
         </li>
         <li>
-          <Link to="sponsors" smooth={true}>
+          <Link to="sponsors" onClick={closeNavActive} smooth={true}>
             Sponsors
           </Link>
         </li>
         <li>
-          <Link to="register" className={styles.registerButton} smooth={true}>
+          <a
+            href="https://www.instagram.com/nuscomputingclub/"
+            target="_blank"
+            className={styles.registerButton}
+            onClick={closeNavActive}
+          >
             Register
-          </Link>
+          </a>
         </li>
       </ul>
       <div
