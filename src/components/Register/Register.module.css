@@ -1,3 +1,20 @@
 .register {
-  height: 20vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background-color: #A8C0FF;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.button {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  font-size: 1.8rem;
+  font-family: 'Roboto';
+  font-weight: 400;
 }
