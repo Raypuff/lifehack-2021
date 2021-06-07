@@ -3,6 +3,14 @@ import sponsorLogo from "../../images/sponsor-logo.png";
 import socLogo from "../../images/soc-logo.png";
 import compClubLogo from "../../images/comp_club-logo.png";
 
+// const Sponsors = () => {
+//   return (
+//     <div className={styles.sponsors} name="sponsors">
+//       this is sponsors
+//     </div>
+//   );
+// };
+
 const Sponsors = () => {
   return (
     <div className={styles.sponsors} name="sponsors">
