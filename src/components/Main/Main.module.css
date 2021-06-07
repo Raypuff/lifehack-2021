@@ -1,3 +1,38 @@
 .mainBody {
-  height: 60vh;
+  display: flex;
+  padding: 5rem;
+  background-color: #A8C0FF;
+}
+
+.myimage {
+  width: 30vw;
+}
+
+.description {
+  display: block;
+  width: 45vw;
+  text-align: center;
+  margin: auto;
+}
+
+.title{
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.subtitle{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1000px){
+  .mainBody{
+    flex-direction: column;
+  }
+  .myimage{
+    width: 50vw;
+    max-width: 60vw;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
 }
