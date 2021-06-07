@@ -11,106 +11,114 @@ const Workshops = () => {
 
       <div className={styles.row}>
         <div className={styles.descriptionCol}>
-        <h3>Workshop 1</h3>
+          <h3>Introduction to Front End Web Development with HTML/ CSS</h3>
           <p>
-          <b>By:</b> <i>placeholder</i> 
+            <b>By:</b> <i>Ask Alumni/IG</i>
             <br />
-            <b>Date:</b> <i>placeholder</i> 
+            <b>Date:</b> <i>19th July</i>
             <br />
-            <b>Timing:</b> <i>placeholder</i>  
-            <br /> 
-            <b>Description:</b> <i>placeholder</i> 
-            </p>
+            <b>Timing:</b> <i>4:00PM - 6:00PM</i>
+            <br />
+            <br />
+            <b>Description:</b> <i>placeholder</i>
+          </p>
         </div>
         <div className={styles.descriptionCol}>
-          <h3>Workshop 2</h3>
+          <h3>Introduction to Python Pandas for Data Analysis</h3>
           <p>
-          <b>By:</b> <i>placeholder</i> 
+            <b>By:</b> <i>Ask Alumni/IG</i>
             <br />
-            <b>Date:</b> <i>placeholder</i> 
+            <b>Date:</b> <i>19th July</i>
             <br />
-            <b>Timing:</b> <i>placeholder</i>  
-            <br /> 
-            <b>Description:</b> <i>placeholder</i> 
-            </p>
-        </div>
-
-        <div className={styles.descriptionCol}>
-          <h3>Workshop 3</h3>
-          <p>
-          <b>By:</b> <i>placeholder</i> 
+            <b>Timing:</b> <i>7:00PM - 9:00PM</i>
             <br />
-            <b>Date:</b> <i>placeholder</i> 
             <br />
-            <b>Timing:</b> <i>placeholder</i>  
-            <br /> 
-            <b>Description:</b> <i>placeholder</i> 
-            </p>
+            <b>Description:</b> <i>placeholder</i>
+          </p>
         </div>
 
         <div className={styles.descriptionCol}>
-          <h3>Workshop 4</h3>
+          <h3>Data Visualization using Tableau</h3>
           <p>
-          <b>By:</b> <i>placeholder</i> 
+            <b>By:</b> <i>Ask Central Library Research Group/ NUSSU commIT</i>
             <br />
-            <b>Date:</b> <i>placeholder</i> 
+            <b>Date:</b> <i>20th July</i>
             <br />
-            <b>Timing:</b> <i>placeholder</i>  
-            <br /> 
-            <b>Description:</b> <i>placeholder</i> 
-            </p>
+            <b>Timing:</b> <i>4:00PM - 6:00PMr</i>
+            <br />
+            <br />
+            <b>Description:</b> <i>placeholder</i>
+          </p>
+        </div>
+
+        <div className={styles.descriptionCol}>
+          <h3>Using Python to make your first Telegram Bot</h3>
+          <p>
+            <b>By:</b> <i>Ask Alumni/IG</i>
+            <br />
+            <b>Date:</b> <i>20th July</i>
+            <br />
+            <b>Timing:</b> <i>7:00PM - 9:00PM</i>
+            <br />
+            <br />
+            <b>Description:</b> <i>placeholder</i>
+          </p>
         </div>
       </div>
       <div className={styles.row}>
         <div className={styles.descriptionCol}>
-          <h3>Workshop 5</h3>
+          <h3>How to incorporate UI/UX concepts into your design</h3>
           <p>
-          <b>By:</b> <i>placeholder</i> 
+            <b>By:</b> <i>Find sponsor/ IG</i>
             <br />
-            <b>Date:</b> <i>placeholder</i> 
+            <b>Date:</b> <i>21st July</i>
             <br />
-            <b>Timing:</b> <i>placeholder</i>  
-            <br /> 
-            <b>Description:</b> <i>placeholder</i> 
-            </p>
+            <b>Timing:</b> <i>5:00PM - 6:00PM</i>
+            <br />
+            <br />
+            <b>Description:</b> <i>placeholder</i>
+          </p>
         </div>
 
         <div className={styles.descriptionCol}>
-          <h3>Workshop 6</h3>
+          <h3>Web development with ReactJS</h3>
           <p>
-          <b>By:</b> <i>placeholder</i> 
+            <b>By:</b> <i>Find sponsor/IG</i>
             <br />
-            <b>Date:</b> <i>placeholder</i> 
+            <b>Date:</b> <i>21st July</i>
             <br />
-            <b>Timing:</b> <i>placeholder</i>  
-            <br /> 
-            <b>Description:</b> <i>placeholder</i> 
-            </p>
+            <b>Timing:</b> <i>7:00PM - 10:00PM</i>
+            <br />
+            <br />
+            <b>Description:</b> <i>placeholder</i>
+          </p>
         </div>
 
         <div className={styles.descriptionCol}>
-          <h3>Workshop 7</h3>
+          <h3>Data sourcing / extraction (web scraping)</h3>
           <p>
-          <b>By:</b> <i>placeholder</i> 
+            <b>By:</b> <i>Find sponsor/ IG</i>
             <br />
-            <b>Date:</b> <i>placeholder</i> 
+            <b>Date:</b> <i>22nd July</i>
             <br />
-            <b>Timing:</b> <i>placeholder</i>  
-            <br /> 
-            <b>Description:</b> <i>placeholder</i> 
-            </p>
+            <b>Timing:</b> <i>4:00PM - 6:00PM</i>
+            <br />
+            <br />
+            <b>Description:</b> <i>placeholder</i>
+          </p>
         </div>
         <div className={styles.descriptionCol}>
-          <h3>Workshop 8</h3>
+          <h3>Utilizing AWS Cloud Services</h3>
           <p>
-          <b>By:</b> <i>placeholder</i> 
+            <b>By:</b> <i>Ask AWS</i>
             <br />
-            <b>Date:</b> <i>placeholder</i> 
+            <b>Date:</b> <i>22nd July</i>
             <br />
-            <b>Timing:</b> <i>placeholder</i>  
-            <br /> 
-            <b>Description:</b> <i>placeholder</i> 
-            </p>
+            <b>Timing:</b> <i>7:00PM - 10:00PM</i>
+            <br />
+            <br />
+            <b>Description:</b> <i>placeholder</i>
+          </p>
         </div>
       </div>
     </div>
