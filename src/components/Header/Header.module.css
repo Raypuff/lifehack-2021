@@ -1,4 +1,4 @@
-header {
+/* header {
   display: flex;
   background-color: #002054;
   align-items: center;
@@ -13,5 +13,143 @@ img {
 .registerButton {
   margin-left: auto;
   margin-right: 30px;
+  ;
+} */
+
+.nav {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  min-height: 8vh;
+  color: #fff;
+  background-color: #002054;
+  font-family: Roboto, sans-serif;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  height: 5em;
+  margin: 0.3rem 0 0.3rem 5rem;
+  cursor: pointer;
+}
+
+.logo:hover {
+  box-shadow: 0px 0px 7px 2px white;
+}
+
+.navLinks,
+.navActive {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navLinks li,
+.navActive li {
+  list-style: none;
+}
+
+.navLinks a,
+.navActive a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.inactive {
+}
+
+.line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.line2 {
+  opacity: 0;
+}
+.line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.registerButton {
+  margin-right: 5rem;
+  padding: 1.8vh 2vw;
+  background-color: #138df2;
+  border-radius: 10px;
+}
+
+.registerButton:hover {
   background-color: #5db6ff;
+  box-shadow: 0px 0px 6px 3px#5db6ff;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo {
+    margin-left: 0.6rem;
+  }
+
+  .registerButton {
+    margin-right: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .registerButton {
+    margin-right: 0rem;
+  }
+
+  .navLinks {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    border-radius: 10px;
+    background-color: #002054;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .navLinks li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+    margin-left: auto;
+    margin-right: 0.6rem;
+    cursor: pointer;
+  }
+}
+
+.navActive {
+  position: absolute;
+  right: 0px;
+  height: 92vh;
+  top: 8vh;
+  border-bottom-left-radius: 10px;
+  background-color: #002054;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  transform: translateX(0%);
+  transition: transform 0.3s ease-in;
 }

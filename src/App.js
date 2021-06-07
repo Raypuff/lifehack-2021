@@ -12,10 +12,10 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Main />
-      <HackTimeline />
-      <Workshops />
-      <Prizes />
+      <Main id="main" />
+      <HackTimeline id="timeline" />
+      <Workshops id="workshops" />
+      <Prizes id="prizes" />
       <FAQ />
       <Sponsors />
       <Register />

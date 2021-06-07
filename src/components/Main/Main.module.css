@@ -1,7 +1,11 @@
+.headerBg {
+  height: 8vh;
+}
+
 .mainBody {
   display: flex;
   padding: 5rem;
-  background-color: #A8C0FF;
+  background-color: #a8c0ff;
 }
 
 .myimage {
@@ -15,21 +19,21 @@
   margin: auto;
 }
 
-.title{
+.title {
   font-size: 3rem;
   font-weight: 500;
 }
 
-.subtitle{
+.subtitle {
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-@media screen and (max-width: 1000px){
-  .mainBody{
+@media screen and (max-width: 1000px) {
+  .mainBody {
     flex-direction: column;
   }
-  .myimage{
+  .myimage {
     width: 50vw;
     max-width: 60vw;
     margin: auto;
