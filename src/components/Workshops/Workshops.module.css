@@ -36,7 +36,7 @@ p {
   margin-bottom: 5%;
   padding: 15px 12px;
   box-sizing: border-box;
-  height: 27 vh;
+  height: 25vh;
   transition: box-shadow 0.5s, height 0.5s;
   overflow: hidden;
 }

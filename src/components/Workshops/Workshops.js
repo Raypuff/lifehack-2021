@@ -44,7 +44,7 @@ const Workshops = () => {
             <br />
             <b>Date:</b> <i>20th July</i>
             <br />
-            <b>Timing:</b> <i>4:00PM - 6:00PMr</i>
+            <b>Timing:</b> <i>4:00PM - 6:00PM</i>
             <br />
             <br />
             <b>Description:</b> <i>placeholder</i>
