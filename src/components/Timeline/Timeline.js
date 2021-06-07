@@ -27,14 +27,14 @@ export default function HackTimeline() {
   const classes = useStyles();
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="md" name="timeline">
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent style={{textAlign: "center"}}>
+          <TimelineContent style={{ textAlign: "center" }}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
                 Registration
@@ -48,7 +48,7 @@ export default function HackTimeline() {
             <TimelineDot color="black" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent style={{textAlign: "center"}}>
+          <TimelineContent style={{ textAlign: "center" }}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
                 Workshops
@@ -67,7 +67,7 @@ export default function HackTimeline() {
             <TimelineDot color="black" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent style={{textAlign: "center"}}>
+          <TimelineContent style={{ textAlign: "center" }}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
                 Opening Ceremony
@@ -86,7 +86,7 @@ export default function HackTimeline() {
             <TimelineDot color="black" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent style={{textAlign: "center"}}>
+          <TimelineContent style={{ textAlign: "center" }}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
                 Release of Problem Statement
@@ -105,7 +105,7 @@ export default function HackTimeline() {
             <TimelineDot color="black" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent style={{textAlign: "center"}}>
+          <TimelineContent style={{ textAlign: "center" }}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
                 Submission of Hack
@@ -124,7 +124,7 @@ export default function HackTimeline() {
             <TimelineDot color="black" />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent style={{textAlign: "center"}}>
+          <TimelineContent style={{ textAlign: "center" }}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
                 Announcement of Winners
@@ -142,7 +142,7 @@ export default function HackTimeline() {
           <TimelineSeparator>
             <TimelineDot />
           </TimelineSeparator>
-          <TimelineContent style={{textAlign: "center"}}>
+          <TimelineContent style={{ textAlign: "center" }}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
                 Closing Ceremony and Prize Presentation

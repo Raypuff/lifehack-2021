@@ -2,7 +2,7 @@ import styles from "./Workshops.module.css";
 
 const Workshops = () => {
   return (
-    <div className={styles.workshops} name="prizes">
+    <div className={styles.workshops} name="workshops">
       <h1>Workshops</h1>
       <p>
         Insert message
