@@ -1,3 +1,49 @@
 .prizes {
-  height: 60vh;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  background: #8BACFF;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+h4{
+  line-height: 7px; 
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 150;
+
+}
+
+.place {
+  font-weight: 300;
+  /* line-height: 7px; */
+}
+
+.wrapper {
+  display:table;
+  width:100%;
+}
+
+.row {
+  display:table-row;
+}
+
+.first {
+  display:table-cell;
+  width:33%;
+}
+
+.second {
+  display:table-cell;
+  width:33%;
+}
+
+.third {
+  display:table-cell;
+  width:33%;
 }
