@@ -1,31 +1,22 @@
 .sponsors {
-  /* height: 60vh; */
-  position: relative;
-  padding: 7em 5em 7em 5em;
-  background: #002054;
-  background-size: cover;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #8BACFF;
   text-align: center;
-  color: white;
+  font-family: 'Roboto';
 }
 
-.sponsorList {
-  overflow: hidden;
-  margin: 0em auto;
-  padding: 0;
+.title {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
-.organizerList {
-  overflow: hidden;
-  margin: 0em auto;
-  padding: 0;
+.logoContainer {
+  flex-direction: column;
 }
 
-.trainerList {
-  overflow: hidden;
-  margin: 0em auto;
-  padding: 0;
-}
-
-div {
+.logo {
+  margin: 2rem auto;
   display: block;
+  width: 30vw;
 }

@@ -3,7 +3,8 @@ import styles from "./Register.module.css";
 const Register = () => {
   return (
     <div className={styles.register}>
-      this is the bottom register call to action
+      <p className={styles.text}>So what are you waiting for?<br/></p>
+      <button className={styles.button}>Register now!</button>
     </div>
   );
 };

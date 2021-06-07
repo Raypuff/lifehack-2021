@@ -1,3 +1,21 @@
 .faq {
-  height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75vw;
+	margin: 5rem auto;
+}
+
+.questionBox {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.questionItem {
+	margin-top: 1rem;
+}
+
+.furtherEnq {
+	margin-top: 1.2rem;
 }
