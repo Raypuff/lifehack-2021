@@ -2,9 +2,9 @@ import styles from "./Main.module.css";
 
 const Main = () => {
   return (
-    <>
+    <div name="main">
       <div className={styles.headerBg}></div>
-      <div name="main" className={styles.mainBody}>
+      <div className={styles.mainBody}>
         <img
           className={styles.myimage}
           src="LifeHack 1500x1500 logo.png"
@@ -19,7 +19,7 @@ const Main = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
