@@ -1,4 +1,4 @@
-import logo from "./lifehack-logo-600x450.png";
+import logo from "../../images/lifehack-logo.png";
 import styles from "./Header.module.css";
 import { useState } from "react";
 import { Link } from "react-scroll";

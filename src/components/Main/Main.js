@@ -1,3 +1,4 @@
+import logo from "../../images/lifehack-logo.png";
 import styles from "./Main.module.css";
 
 const Main = () => {
@@ -5,11 +6,7 @@ const Main = () => {
     <div name="main">
       <div className={styles.headerBg}></div>
       <div className={styles.mainBody}>
-        <img
-          className={styles.myimage}
-          src="LifeHack 1500x1500 logo.png"
-          alt="LifeHack logo"
-        ></img>
+        <img className={styles.myimage} src={logo} alt="LifeHack logo"></img>
         <div className={styles.description}>
           <h className={styles.title}>LifeHack 2021</h>
           <p className={styles.subtitle}>
