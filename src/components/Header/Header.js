@@ -58,7 +58,7 @@ const Header = () => {
             className={styles.registerButton}
             onClick={closeNavActive}
           >
-            Register
+            REGISTER NOW
           </a>
         </li>
       </ul>
