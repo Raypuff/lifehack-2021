@@ -7,7 +7,7 @@
 }
 
 .myimage {
-  width: 40vw;
+  width: 37.5vw;
 }
 
 .description {
@@ -31,7 +31,7 @@
   font-weight: 300;
   color: #fff;
   margin: 0;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   padding: 0;
 }
 
@@ -40,7 +40,7 @@
   font-weight: 200;
   color: #fff;
   margin: 0;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2rem;
   padding: 0;
 }
 
@@ -52,6 +52,7 @@
   padding: .7rem 1.2rem;
   color: #002054;
   cursor: pointer;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1000px) {

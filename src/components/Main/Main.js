@@ -13,7 +13,13 @@ const Main = () => {
           <p className={styles.subtitle}>
             Stay ahead of change. Innovate the future
           </p>
-          <button className={styles.registerButton}>REGISTER NOW</button>
+          <a
+            href="https://www.instagram.com/nuscomputingclub/"
+            target="_blank"
+            className={styles.registerButton}
+          >
+            REGISTER NOW
+          </a>
         </div>
       </div>
     </div>
