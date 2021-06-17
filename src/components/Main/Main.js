@@ -8,12 +8,12 @@ const Main = () => {
       <div className={styles.mainBody}>
         <img className={styles.myimage} src={logo} alt="LifeHack logo"></img>
         <div className={styles.description}>
-          <h className={styles.title}>LifeHack 2021</h>
+          <p className={styles.title}>LifeHack 2021</p>
+          <p className={styles.date}>23-24 July</p>
           <p className={styles.subtitle}>
-            LifeHack 2021 is a 24h virtual hackathon that wants YOU to develop
-            innovative software solutions that can make a change in peoples’
-            lives in a post-COVID world.
+            Stay ahead of change. Innovate the future
           </p>
+          <button className={styles.registerButton}>REGISTER NOW</button>
         </div>
       </div>
     </div>

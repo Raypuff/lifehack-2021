@@ -1,32 +1,57 @@
-.headerBg {
-  height: 8vh;
-}
-
 .mainBody {
   display: flex;
   padding: 5rem;
-  background-color: #a8c0ff;
+  height: auto;
+  background-color: #002054;
+  font-family: Roboto, sans-serif;
 }
 
 .myimage {
-  width: 30vw;
+  width: 40vw;
 }
 
 .description {
   display: block;
   width: 45vw;
-  text-align: center;
+  text-align: left;
   margin: auto;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 3.3rem;
   font-weight: 500;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+.date {
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 1.25rem;
+  padding: 0;
 }
 
 .subtitle {
+  font-size: 1.75rem;
+  font-weight: 200;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 1.25rem;
+  padding: 0;
+}
+
+.registerButton {
+  background-color: #f7c945;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: .7rem 1.2rem;
+  color: #002054;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
