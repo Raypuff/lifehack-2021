@@ -23,6 +23,8 @@ const useStyles = makeStyles((theme) => ({
     color: "#1C1F35",
     backgroundColor: "transparent",
     boxShadow: "none",
+    padding: "0",
+    margin: "0",
   },
   connector: {
     backgroundColor: "#1C1F35",
@@ -33,8 +35,10 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     position: "relative",
-    top: "-.6rem",
+    top: "-1.3rem",
     backgroundColor: "transparent",
+    paddingLeft: ".5rem",
+    paddingBottom: ".5rem",
   },
   title: {
     color: "#1C1F35",

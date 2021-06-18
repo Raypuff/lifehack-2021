@@ -14,6 +14,8 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "-.5rem",
     webkitTransform: "rotateX(180deg)",
     transform: "rotateX(180deg)",
+    padding: "0",
+    margin: "0",
   },
   powerIcon: {
     width: "2.5rem",
