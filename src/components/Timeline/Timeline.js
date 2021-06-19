@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
   timeline: {
     marginLeft: "14rem",
+    marginTop: "-1rem",
   },
 }));
 
@@ -30,7 +31,7 @@ export default function HackTimeline() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className={styles.body} name="timeline">
       <p className={styles.header}>Timeline</p>
       <div className={styles.container}>
         <Timeline align="left" className={classes.timeline}>
