@@ -35,24 +35,27 @@ export default function HackTimeline() {
       <p className={styles.header}>Timeline</p>
       <div className={styles.container}>
         <Timeline align="left" className={classes.timeline}>
-          <TimelineEvent title="Registration" date="25 June - 16 July" />
-          <TimelineEvent title="Workshops" date="19 July - 22 July" />
+          <TimelineEvent title="Registration" datetime="25 June - 16 July" />
+          <TimelineEvent title="Workshops" datetime="19 July - 22 July" />
           <TimelineEvent
             title="Opening Ceremony"
-            date="23 July, 9:30am - 12:00pm"
+            datetime="23 July, 9:30am - 12:00pm"
           />
           <TimelineEvent
             title="Release of Problem Statement"
-            date="23 July, 12:00pm"
+            datetime="23 July, 12:00pm"
           />
-          <TimelineEvent title="Submission of Hack" date="24 July, 12:00pm" />
+          <TimelineEvent
+            title="Submission of Hack"
+            datetime="24 July, 12:00pm"
+          />
           <TimelineEvent
             title="Announcement of Winners"
-            date="25 July, 12:00pm"
+            datetime="25 July, 12:00pm"
           />
           <TimelineEvent
             title="Closing Ceremony and Prize Presentation"
-            date="25 July, 3:00pm - 4:30pm"
+            datetime="25 July, 3:00pm - 4:30pm"
           />
           <TimelineDot className={classes.dot}>
             <PowerIcon className={classes.powerIcon} />

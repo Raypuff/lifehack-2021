@@ -67,7 +67,7 @@ function TimelineEvent(props) {
       <TimelineContent className={classes.content}>
         <Paper elevation={0} className={classes.paper}>
           <Typography className={classes.title}>{props.title}</Typography>
-          <Typography className={classes.date}>{props.date}</Typography>
+          <Typography className={classes.date}>{props.datetime}</Typography>
         </Paper>
       </TimelineContent>
     </TimelineItem>
