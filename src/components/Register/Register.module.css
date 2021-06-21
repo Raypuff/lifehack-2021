@@ -1,22 +1,23 @@
 .register {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  text-align: center;
-  background-color: #A8C0FF;
-  flex-direction: column;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	text-align: center;
+	background-color: #002054;
+	flex-direction: column;
 }
 
 .text {
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+	color: #fff;
 }
-
-.button {
-  border: none;
-  padding: 1rem 2rem;
-  border-radius: 10rem;
-  font-size: 1.8rem;
-  font-family: 'Roboto';
-  font-weight: 400;
-  cursor: pointer;
+.registerButton {
+	background-color: #f7c945;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border-radius: 20px;
+	padding: 0.7rem 1.2rem;
+	color: #002054;
+	cursor: pointer;
+	text-decoration: none;
 }

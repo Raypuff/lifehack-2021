@@ -1,142 +1,153 @@
 .nav {
-  display: flex;
-  align-items: center;
-  min-height: 8vh;
-  max-height: 11vh;
-  color: #fff;
-  background-color: #002054;
-  font-family: Roboto, sans-serif;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 1;
+	display: flex;
+	align-items: center;
+	height: 9.5vh;
+	color: #fff;
+	background-color: #002054;
+	font-family: Roboto, sans-serif;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	z-index: 1;
 }
 
 .logoContainer {
-  height: 8em;
-  overflow:hidden;
+	height: 8em;
+	overflow: hidden;
 }
 
 .logo {
-  height: 100%;
-  cursor: pointer;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+	height: 100%;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
-.navLinks,
+.navLinks {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	margin-right: 3rem;
+}
+
+.navActive li,
+.navLinks li {
+	list-style: none;
+}
+
+.navActive li:last-child a,
+.navLinks li:last-child a {
+	color: #f7c945;
+	font-weight: 500;
+}
+
+.navActive a,
+.navLinks a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	cursor: pointer;
+	margin: 0 1rem;
+}
+
+.navLinks {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	margin-right: 3rem;
+}
+
 .navActive {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-  margin-right: 3rem;
-}
-
-.navLinks li,
-.navActive li {
-  list-style: none;
-}
-
-.navLinks li:last-child a,
-.navActive li:last-child a {
-  color: #F7C945;
-  font-weight: 500;
-}
-
-.navLinks a,
-.navActive a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 400;
-  cursor: pointer;
-  margin: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .burger {
-  display: none;
+	display: none;
 }
 
 .burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px;
-  transition: all 0.3s ease;
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	margin: 5px;
+	transition: all 0.3s ease;
 }
 
 .inactive {
 }
 
 .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
+	transform: rotate(-45deg) translate(-5px, 6px);
 }
 .line2 {
-  opacity: 0;
+	opacity: 0;
 }
 .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+	transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .registerButton {
 }
 
 @media screen and (max-width: 1000px) {
-  .logo {
-    margin-left: 0.6rem;
-  }
+	.logo {
+		margin-left: 0.6rem;
+	}
 
-  .registerButton {
-    margin-right: 0.6rem;
-  }
+	.registerButton {
+		margin-right: 0.6rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
-  .registerButton {
-    margin-right: 0rem;
-    padding: 1em 1.5em;
-  }
+	.registerButton {
+		margin-right: 0rem;
+		padding: 1em 1.5em;
+	}
 
-  .navLinks {
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    border-radius: 10px;
-    background-color: #002054;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-  }
+	.navLinks {
+		position: absolute;
+		right: -48px;
+		height: calc(100vh - 7.9vh);
+		height: 92vh;
+		top: 7.9vh;
+		background-color: #002054;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 40%;
+		transform: translateX(100%);
+		transition: transform 0.3s ease-in;
+	}
 
-  .navLinks li {
-    opacity: 0;
-  }
+	.navLinks li {
+		opacity: 0;
+	}
 
-  .burger {
-    display: block;
-    margin-left: auto;
-    margin-right: 0.6rem;
-    cursor: pointer;
-  }
+	.burger {
+		display: block;
+		margin-left: auto;
+		margin-right: 0.6rem;
+		cursor: pointer;
+	}
 }
 
 .navActive {
-  position: absolute;
-  right: 0px;
-  height: 92vh;
-  top: 8vh;
-  border-bottom-left-radius: 10px;
-  background-color: #002054;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40%;
-  transform: translateX(0%);
-  transition: transform 0.3s ease-in;
+	position: absolute;
+	right: 0px;
+	height: calc(100vh - 7.9vh);
+	top: 7.9vh;
+	border-bottom-left-radius: 10px;
+	background-color: #002054;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 40%;
+	transform: translateX(0%);
+	transition: transform 0.3s ease-in;
 }
