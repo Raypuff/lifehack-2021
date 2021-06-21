@@ -1,22 +1,31 @@
 .sponsors {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #8BACFF;
-  text-align: center;
-  font-family: 'Roboto';
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: #dddddd;
+	text-align: center;
+	font-family: "Roboto";
 }
 
 .title {
-  font-size: 1.3rem;
-  font-weight: 500;
+	font-size: 1.3rem;
+	font-weight: 500;
 }
 
 .logoContainer {
-  flex-direction: column;
+	flex-direction: column;
 }
 
 .logo {
-  margin: 2rem auto;
-  display: block;
-  width: 30vw;
+	margin: 2rem auto;
+	display: block;
+	width: 30vw;
+}
+
+@media screen and (max-width: 480px) {
+	.mainTitle {
+		font-size: 1.3rem;
+	}
+	.logo {
+		width: 55vw;
+	}
 }
