@@ -1,10 +1,8 @@
 .workshops {
-  height: 130vh;
   width: 100vw;
-  margin: auto;
+  margin: 0 auto;
+  padding: 2.5rem 0;
   text-align: center;
-  padding-top: 50px;
-  min-height: 20vh;
 }
 
 .header {
@@ -12,25 +10,52 @@
   font-size: 2.2rem;
   font-weight: 600;
   color: #1C1F35;
-  margin: 0;
+  margin: 2rem 0;
   padding: 0;
 }
 
+.workshopGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2.5rem;
+  padding: 1rem 2rem;
+  /* display: flex; */
+  /* align-content: space-around; */
+}
+
 .workshopItem {
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  display: relative;
-  width: 60vw;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  margin: 0 auto;
+  width: 37.5vw;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+}
+
+.organizerLogoContainer {
+  width: 10rem;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.organizerLogo {
+  width: 10rem;
+  border-radius: 100%;
+  align-self: center;
 }
 
 .content {
-  float: right;
   text-align: left;
+  align-self: center;
+  margin-left: 1.5rem;
 }
 
 .title {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .datetime {
@@ -41,6 +66,7 @@
 
 hr {
   margin: 1rem 0;
+  width: 100%;
 }
 
 .description {
@@ -53,12 +79,7 @@ hr {
   font-size: 1rem;
   font-weight: 400;
   margin-top: .5rem;
-}
-
-.organizerLogo {
-  float: left;
-  border-radius: 100%;
-  overflow: hidden;
+  margin-bottom: 0;
 }
 
 /* p {
