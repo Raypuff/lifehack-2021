@@ -1,3 +1,8 @@
+.background {
+	background-color: #002054;
+	color: #fff;
+}
+
 .faq {
 	display: flex;
 	flex-direction: column;
@@ -17,5 +22,5 @@
 }
 
 .furtherEnq {
-	margin-top: 1.2rem;
+		margin-top: 1.2rem;
 }
