@@ -68,11 +68,19 @@
 }
 
 @media screen and (max-width: 480px) {
+	.mainBody{
+		padding: 5rem 0 0 0 ;
+		height: 92vh;
+	}
+	.description {
+		text-align: center;
+		width: 80%;
+			}
 	.myimage {
 		object-fit: cover;
-		height: 30vh;
-		width: 70vw;
-		max-width: 70vw;
-		margin-bottom: 1rem;
-	}
+				margin: -8vh auto -20vh;
+				width: 100%;
+				padding: 0 auto;
+				height: 50vh;
+							}
 }
