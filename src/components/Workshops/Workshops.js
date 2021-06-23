@@ -1,5 +1,5 @@
 import WorkshopItem from "./WorkshopItem";
-import NusHackersLogo from "../../images/workshops/nus-hackers.png";
+import NusHackersLogo from "../../images/organizations/nus-hackers.png";
 import styles from "./Workshops.module.css";
 
 const Workshops = () => {

@@ -1,12 +1,11 @@
 import styles from "./Sponsors.module.css";
-import sponsorLogo from "../../images/sponsor-logo.png";
-import micronLogo from "../../images/micron-logo.png";
-import csitLogo from "../../images/csit-logo.png";
-import shopeeLogo from "../../images/shopee-logo.png";
-import websparksLogo from "../../images/websparks-logo.png";
-import dstaLogo from "../../images/dsta-logo.png";
-import socLogo from "../../images/soc-logo.png";
-import compClubLogo from "../../images/comp_club-logo.png";
+import micronLogo from "../../images/organizations/micron-logo.png";
+import csitLogo from "../../images/organizations/csit-logo.png";
+import shopeeLogo from "../../images/organizations/shopee-logo.png";
+import websparksLogo from "../../images/organizations/websparks-logo.png";
+import dstaLogo from "../../images/organizations/dsta-logo.png";
+import socLogo from "../../images/organizations/soc-logo.png";
+import compClubLogo from "../../images/organizations/comp_club-logo.png";
 
 const Sponsors = () => {
 	return (
