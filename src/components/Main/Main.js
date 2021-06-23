@@ -16,6 +16,7 @@ const Main = () => {
           <a
             href="https://www.instagram.com/nuscomputingclub/"
             target="_blank"
+						rel="noreferrer"
             className={styles.registerButton}
           >
             REGISTER NOW

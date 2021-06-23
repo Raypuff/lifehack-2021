@@ -7,18 +7,21 @@ import FAQ from "./components/FAQ";
 import Sponsors from "./components/Sponsors";
 import Register from "./components/Register";
 import Footer from "./components/Footer";
+import styles from "./App.module.css";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Main id="main" />
-      <HackTimeline id="timeline" />
-      <Workshops id="workshops" />
-      <Prizes id="prizes" />
-      <FAQ />
-      <Sponsors />
-      <Register />
+      <div className={styles.content}>
+        <Main />
+        <HackTimeline />
+        <Workshops />
+        <Prizes />
+        <FAQ />
+        <Sponsors />
+        <Register />
+      </div>
       <Footer />
     </div>
   );

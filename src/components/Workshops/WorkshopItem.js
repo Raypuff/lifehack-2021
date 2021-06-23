@@ -8,6 +8,7 @@ function WorkshopItem(props) {
         className={styles.organizerLogoContainer}
         href={props.organizerLink}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           className={styles.organizerLogo}

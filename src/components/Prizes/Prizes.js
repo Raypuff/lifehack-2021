@@ -5,21 +5,6 @@ import FirstPrizeLogo from "../../images/prizes/idea1.svg";
 import SecondPrizeLogo from "../../images/prizes/idea2.svg";
 import ThirdPrizeLogo from "../../images/prizes/idea3.svg";
 
-const column = (classId, cat1, val1, cat2, val2) => {
-  return (
-    <div className={classId}>
-      <div>
-        <h4>{cat1}</h4>
-        <h4>{val1}</h4>
-      </div>
-      <div>
-        <h4>{cat2}</h4>
-        <h4>{val2}</h4>
-      </div>
-    </div>
-  );
-};
-
 const Prizes = () => {
   return (
     <div className={styles.prizes} name="prizes">
