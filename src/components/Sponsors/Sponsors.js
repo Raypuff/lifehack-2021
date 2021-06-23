@@ -11,11 +11,11 @@ import compClubLogo from "../../images/comp_club-logo.png";
 const Sponsors = () => {
 	return (
 		<div className={styles.sponsors} name="sponsors">
-			<h2 className={styles.mainTitle}>Sponsors and Organizers</h2>
+			<h2 className={styles.header}>Sponsors and Organizers</h2>
 			<p className={styles.title}>Main sponsors</p>
 			<div className={styles.logoContainer}>
-				<img className={styles.mainLogo} src={micronLogo} alt="Micron" />
-				<img className={styles.mainLogo} src={csitLogo} alt="CSIT" />
+				<img className={styles.logo} src={micronLogo} alt="Micron" />
+				<img className={styles.logo} src={csitLogo} alt="CSIT" />
 			</div>
 			<p className={styles.title}>Supporting Organizations</p>
 			<div className={styles.logoContainer}>
@@ -25,9 +25,9 @@ const Sponsors = () => {
 			</div>					
 			<p className={styles.title}>Organized By</p>
 			<div className={styles.logoContainer}>
-				<img className={styles.mainLogo} src={socLogo} alt="NUS Computing" />
+				<img className={styles.logo} src={socLogo} alt="NUS Computing" />
 				<img
-					className={styles.mainLogo}
+					className={styles.logo}
 					src={compClubLogo}
 					alt="NUS Students' Computing Club"
 				/>
