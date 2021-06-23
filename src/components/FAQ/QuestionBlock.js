@@ -3,9 +3,10 @@ import styles from "./FAQ.module.css";
 
 export default function QuestionBlock(props) {
 	return (
-		<div className={styles.questionItem}>
-			<h3>{props.question}</h3>
-			<p>{props.answer}</p>
+		<div className={styles.tab}>
+			<input type="checkbox" id={`checkbox-${props.id}`}/>
+			<label className={styles.tabLabel} for={`checkbox-${props.id}`}>{props.question}</label>
+			<p className={styles.tabContent}>{props.answer}</p>
 		</div>
 	);
 }
