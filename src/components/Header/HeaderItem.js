@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-scroll";
 import styles from "./Header.module.css";
 
 function HeaderItem(props) {
   return (
     <div className={styles.headerItem}>
-      <Link to={props.to} smooth={true}>
+      <Link to={props.to} smooth={true} offset={-80}>
         {props.content}
       </Link>
     </div>
-  )
+  );
 }
 
-export default HeaderItem
+export default HeaderItem;

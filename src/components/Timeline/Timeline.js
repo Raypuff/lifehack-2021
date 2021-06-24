@@ -31,7 +31,7 @@ export default function HackTimeline() {
   const classes = useStyles();
 
   return (
-    <div className={styles.body} name="timeline">
+    <div className={styles.timeline} name="timeline">
       <p className={styles.header}>Timeline</p>
       <div className={styles.container}>
         <Timeline align="left" className={classes.timeline}>
