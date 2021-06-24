@@ -14,6 +14,7 @@ function WorkshopItem(props) {
           className={styles.organizerLogo}
           src={props.organizerLogo}
           alt={props.organizer}
+          loading="lazy"
         />
       </a>
       <div className={styles.content}>
