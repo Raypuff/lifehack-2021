@@ -17,7 +17,7 @@
 
 .subheader {
 	font-size: 1.75rem;
-	font-weight: 150;
+	font-weight: 300;
 	margin-top: -1rem;
 	padding: 0 8vw;
 }
@@ -26,7 +26,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin: 3rem auto;
+	margin: 2rem auto 3rem;
 	width: 80%;
 }
 
@@ -49,6 +49,7 @@
 	font-weight: 500;
 	margin: 0;
 	padding: 0;
+	white-space: nowrap;
 }
 
 .bigPrizesMobile {
@@ -68,7 +69,8 @@
   row-gap: 2rem;
   align-self: center;
   justify-items: center; */
-	margin-top: 3rem;
+	/* max-width: 50rem; */
+	margin: 1rem auto 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -76,7 +78,6 @@
 }
 
 .smallPrizeContainer {
-	width: 17.5vw;
 	margin: 0;
 }
 
@@ -128,8 +129,6 @@
 	}
 
 	.smallPrizes {
-		width: 45rem;
-		column-gap: 0rem;
 	}
 
 	.smallPrizeContainer {

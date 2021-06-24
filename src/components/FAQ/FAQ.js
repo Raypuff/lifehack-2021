@@ -31,16 +31,21 @@ const FAQ = () => {
 		},
 		{
 			id: "6",
+			qn: "Which platform will be used to disseminate event updates/announcements?",
+			ans: "We will have a Discord server for participants to join and be updated of workshops or mini events throughout the hackathon.",
+		},
+		{
+			id: "7",
 			qn: "Can I use code I previously wrote?",
 			ans: "You are allowed to use snippets of code you have previously written. However, copying your entire hack from previous events or from online is strictly not allowed.",
 		},
 		{
-			id: "7",
+			id: "8",
 			qn: "How will the submissions be assessed?",
 			ans: "Details on judging criteria and rules will be elaborated upon on the event Opening Day (23 July). Judging panels will consist of NUS professors and industry professionals.",
 		},
 		{
-			id: "8",
+			id: "9",
 			qn: "Are there any restrictions on platforms and programming languages which can be used?",
 			ans: "No. Feel free to use any programming language or technology you’re comfortable with!",
 		},

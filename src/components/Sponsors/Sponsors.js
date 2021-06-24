@@ -6,6 +6,7 @@ import shopeeLogo from "../../images/organizations/shopee-logo.png";
 import websparksLogo from "../../images/organizations/websparks-logo.png";
 import dstaLogo from "../../images/organizations/dsta-logo.png";
 import startitLogo from "../../images/organizations/startit-logo.png";
+import nusHackersLogo from "../../images/organizations/nus-hackers.png";
 import socLogo from "../../images/organizations/soc-logo.png";
 import compClubLogo from "../../images/organizations/comp_club-logo.png";
 import styles from "./Sponsors.module.css";
@@ -54,6 +55,18 @@ const Sponsors = () => {
 						className={styles.smallLogo}
 						src={dstaLogo}
 						alt="DSTA"
+						loading="lazy"
+					/>
+					<img
+						className={styles.smallLogo}
+						src={nusHackersLogo}
+						alt="NUS Hackers"
+						loading="lazy"
+					/>
+					<img
+						className={styles.smallLogo}
+						src={startitLogo}
+						alt="StartIT"
 						loading="lazy"
 					/>
 				</div>
