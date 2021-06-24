@@ -41,18 +41,18 @@
 .logo {
 	margin: auto;
 	display: block;
-	max-width: 20vw;
-	max-height: 25vh;
+	max-width: 22rem;
+	/* max-height: 25vh; */
 	object-fit: contain;
 }
 
 .smallLogo {
 	composes: logo;
-	max-width: 12vw;
-	max-height: 15vh;
+	max-width: 15rem;
+	/* max-height: 15vh; */
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.sponsors {
 		padding-bottom: 5vh;
 	}
@@ -64,7 +64,7 @@
 		flex-wrap: wrap;
 	}
 	.logo {
-		max-width: 80vw;
+		max-width: 70vw;
 	}
 	.smallLogo {
 		max-width: 50vw;
