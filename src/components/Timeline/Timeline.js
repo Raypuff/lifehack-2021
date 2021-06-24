@@ -6,7 +6,7 @@ import PowerIcon from "@material-ui/icons/Power";
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "./Timeline.module.css";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((_theme) => ({
   dot: {
     color: "#1C1F35",
     backgroundColor: "transparent",
