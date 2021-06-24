@@ -17,7 +17,7 @@ const Prizes = () => {
         <BigPrize logo={FirstPrizeLogo} label="First Prize" award="$3200" />
         <BigPrize logo={ThirdPrizeLogo} label="Third Prize" award="800" />
       </div>
-      <hr class="solid" />
+      <hr className={styles.divider} />
       <div className={styles.smallPrizes}>
         <SmallPrize label="Most Impressive Pre-University Hack" award="$$$" />
         <SmallPrize label="Most Outstanding Undergraduate Hack" award="$$$" />

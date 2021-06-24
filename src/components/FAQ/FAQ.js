@@ -44,18 +44,19 @@ const FAQ = () => {
   return (
     <div className={styles.faq} name="faq">
       <h1 className={styles.header}>FAQ</h1>
-        <div className={styles.questionBlocks}>
-          {questionList.map((questionItem) => (
-            <QuestionBlock
-              id={questionItem.id}
-              question={questionItem.qn}
-              answer={questionItem.ans}
-            />
-          ))}
-        </div>
-        <div className={styles.furtherEnq}>
-          <h5>For futher enquries, kindly email lifehack@nuscomputing.com</h5>
-        </div>
+      <div className={styles.questionBlocks}>
+        {questionList.map((questionItem) => (
+          <QuestionBlock
+            key={questionItem.id}
+            id={questionItem.id}
+            question={questionItem.qn}
+            answer={questionItem.ans}
+          />
+        ))}
+      </div>
+      <div className={styles.furtherEnq}>
+        <h5>For futher enquries, kindly email lifehack@nuscomputing.com</h5>
+      </div>
     </div>
   );
 };
