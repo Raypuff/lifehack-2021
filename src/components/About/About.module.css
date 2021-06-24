@@ -1,8 +1,8 @@
 .sponsors {
-  padding: 0 8vw;
-  padding-top: 8vh;
+	padding: 0 8vw;
+	padding-top: 8vh;
 	padding-bottom: 8vh;
-  text-align: center;
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -12,14 +12,15 @@
 
 .themeRow {
 	display: flex;
-	gap: 2em;
+	justify-content: space-around;
+	width: 100%;
 }
 
 .header {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-bottom: 2.5rem;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-bottom: 2.5rem;
 }
 
 .title {
@@ -40,6 +41,16 @@
 	max-width: 20vw;
 	max-height: 25vh;
 	object-fit: contain;
+}
+
+@media screen and (max-width: 620px) {
+	.sponsors {
+		padding: ;
+	}
+	.themeRow {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
 }
 
 @media screen and (max-width: 480px) {

@@ -1,7 +1,7 @@
 .faq {
-  padding: 0 10vw;
-  padding-top: 10vh;
-  text-align: center;
+	padding: 0 10vw;
+	padding-top: 10vh;
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -10,10 +10,10 @@
 }
 
 .header {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-bottom: 2.5rem;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-bottom: 2.5rem;
 }
 
 .questionBlocks {
@@ -29,14 +29,15 @@
 	width: 100%;
 	overflow: hidden;
 	height: auto;
-	border-top: .01rem solid #1C1F35;
+	border-top: 0.01rem solid #1c1f35;
 }
 
 .tab:last-child {
-	border-bottom: .01rem solid #1C1F35;
+	border-bottom: 0.01rem solid #1c1f35;
 }
 
 .tabLabel {
+	font-size: 1.2rem;
 	display: flex;
 	justify-content: space-between;
 	padding: 1em;
@@ -78,7 +79,7 @@ input:checked ~ .tabContent {
 }
 
 .furtherEnq {
-		margin-top: 3rem;
-		font-size: 1rem;
-		font-weight: 500;
+	margin-top: 3rem;
+	font-size: 1rem;
+	font-weight: 500;
 }
