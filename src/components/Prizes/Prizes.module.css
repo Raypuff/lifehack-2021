@@ -46,6 +46,10 @@
   padding: 0;
 }
 
+.bigPrizesMobile {
+  display: none;
+}
+
 .divider {
   width: 50rem;
   margin: auto;
@@ -135,6 +139,40 @@
 @media screen and (max-width: 765px) {
   .header {
     font-size: 2rem;
+  }
+
+  .subheader {
+    font-size: 1.3rem;
+  }
+
+  .bigPrizes {
+    display: none;
+  }
+
+  .bigPrizesMobile {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .bigPrizeContainer {
+    display: grid;
+    grid-template-columns: 5rem 10rem;
+  }
+
+  .bigPrizeLogo {
+    width: 2.5rem;
+    margin-right: 1rem;
+  }
+
+  .bigPrizeText {
+    text-align: left;
+  }
+
+  .smallPrizes {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
