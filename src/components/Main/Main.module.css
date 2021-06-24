@@ -1,20 +1,39 @@
 .mainBody {
 	display: flex;
-	padding: 5rem;
-	height: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10vh;
+	height: 90vh;
+	padding: 0 8rem;
 	background-color: #002054;
-	font-family: Roboto, sans-serif;
 }
 
-.myimage {
-	width: 37.5vw;
+.logoContainer {
+	margin-right: 8rem;
+	width: 22.5rem;
+	height: 22.5rem;
+	overflow: hidden;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	width: 25rem;
+	height: 25rem;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 }
 
 .description {
-	display: block;
-	width: 45vw;
+	flex-direction: column;
 	text-align: left;
-	margin: auto;
+}
+
+.description2 {
+	display: none;
 }
 
 .title {
@@ -22,7 +41,7 @@
 	font-weight: 500;
 	color: #fff;
 	margin: 0;
-	margin-bottom: 2rem;
+	margin-bottom: .5rem;
 	padding: 0;
 }
 
@@ -31,7 +50,7 @@
 	font-weight: 300;
 	color: #fff;
 	margin: 0;
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
 	padding: 0;
 }
 
@@ -55,32 +74,126 @@
 	text-decoration: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1250px) {
 	.mainBody {
-		flex-direction: column;
+		padding: 0 5rem;
 	}
-	.myimage {
-		width: 50vw;
-		max-width: 60vw;
-		margin: auto;
-		margin-bottom: 5rem;
+
+	.logoContainer {
+		margin-right: 5rem;
 	}
 }
 
-@media screen and (max-width: 480px) {
-	.mainBody{
-		padding: 5rem 0 0 0 ;
-		height: 92vh;
+@media screen and (max-width: 1110px) {
+	.mainBody {
+		padding: 0 3rem;
 	}
+
+	.logoContainer {
+		margin-right: 3rem;
+	}
+}
+
+
+@media screen and (max-width: 1015px) {
+	.logoContainer {
+		width: 20rem;
+		height: 20rem;
+	}
+	
+	.logo {
+		width: 22.5rem;
+		height: 22.5rem;
+	}
+
+	.title {
+		font-size: 3rem;
+	}
+
+	.date {
+		font-size: 1.5rem;
+	}
+
+	.subtitle {
+		font-size: 1.5rem;
+	}
+
+	.registerButton {
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.mainBody {
+		padding: 0 1rem;
+	}
+
+	.logoContainer {
+		width: 17.5rem;
+		height: 17.5rem;
+	}
+	
+	.logo {
+		width: 20rem;
+		height: 20rem;
+	}
+
+	.title {
+		font-size: 2.75rem;
+	}
+
+	.date {
+		font-size: 1.4rem;
+	}
+
+	.subtitle {
+		font-size: 1.4rem;
+	}
+
+	.registerButton {
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 765px) {
+	.mainBody {
+		flex-direction: column;
+	}
+
+	.logoContainer {
+		margin: 0;
+		margin-top: -8rem;
+		margin-bottom: -3rem;
+		width: 20rem;
+		height: 20rem;
+	}
+
+	.logo {
+		width: 20rem;
+		height: 20rem;
+	}
+
 	.description {
+		display: none;
+	}
+
+	.description2 {
+		display: block;
 		text-align: center;
-		width: 80%;
-			}
-	.myimage {
-		object-fit: cover;
-				margin: -8vh auto -20vh;
-				width: 100%;
-				padding: 0 auto;
-				height: 50vh;
-							}
+	}
+
+	.date {
+		font-size: 1.5rem;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	.subtitle {
+		font-size: 1.75rem;
+		font-weight: 300;
+	}
+
+	.registerButton {
+		font-size: 1.4rem;
+	}
 }

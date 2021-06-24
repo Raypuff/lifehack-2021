@@ -8,17 +8,19 @@ function WorkshopItem(props) {
         className={styles.organizerLogoContainer}
         href={props.organizerLink}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           className={styles.organizerLogo}
           src={props.organizerLogo}
           alt={props.organizer}
+          loading="lazy"
         />
       </a>
       <div className={styles.content}>
         <p className={styles.title}>{props.title}</p>
         <p className={styles.datetime}>{props.datetime}</p>
-        <hr class="solid" />
+        <hr className={styles.divider} />
         <p className={styles.description}>{props.description}</p>
         <p className={styles.organizer}>Organized by {props.organizer}</p>
       </div>

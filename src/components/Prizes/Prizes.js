@@ -5,21 +5,6 @@ import FirstPrizeLogo from "../../images/prizes/idea1.svg";
 import SecondPrizeLogo from "../../images/prizes/idea2.svg";
 import ThirdPrizeLogo from "../../images/prizes/idea3.svg";
 
-const column = (classId, cat1, val1, cat2, val2) => {
-  return (
-    <div className={classId}>
-      <div>
-        <h4>{cat1}</h4>
-        <h4>{val1}</h4>
-      </div>
-      <div>
-        <h4>{cat2}</h4>
-        <h4>{val2}</h4>
-      </div>
-    </div>
-  );
-};
-
 const Prizes = () => {
   return (
     <div className={styles.prizes} name="prizes">
@@ -32,7 +17,12 @@ const Prizes = () => {
         <BigPrize logo={FirstPrizeLogo} label="First Prize" award="$3200" />
         <BigPrize logo={ThirdPrizeLogo} label="Third Prize" award="800" />
       </div>
-      <hr class="solid" />
+      <div className={styles.bigPrizesMobile}>
+        <BigPrize logo={FirstPrizeLogo} label="First Prize" award="$3200" />
+        <BigPrize logo={SecondPrizeLogo} label="Second Prize" award="$1600" />
+        <BigPrize logo={ThirdPrizeLogo} label="Third Prize" award="800" />
+      </div>
+      <hr className={styles.divider} />
       <div className={styles.smallPrizes}>
         <SmallPrize label="Most Impressive Pre-University Hack" award="$$$" />
         <SmallPrize label="Most Outstanding Undergraduate Hack" award="$$$" />

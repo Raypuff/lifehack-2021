@@ -1,106 +1,72 @@
-import logo from "../../images/lifehack-logo.png";
-import styles from "./Header.module.css";
 import { useState } from "react";
-import { Link } from "react-scroll";
-// import { Link as LinkR } from "react-router-dom";
+import HeaderItem from "./HeaderItem";
+import logo from "../../images/lifehack-logo.svg";
+import styles from "./Header.module.css";
 
 const Header = () => {
-	const [navActive, setNavActive] = useState(false);
+  const [navActive, setNavActive] = useState(false);
 
-	function closeNavActive() {
-		if (navActive) {
-			setNavActive(false);
-		}
-	}
+  const toggleNav = () => {
+    setNavActive(!navActive);
+  };
 
-	return (
-		<nav className={styles.nav}>
-			<div className={styles.logoContainer}>
-				<Link to="main" onClick={closeNavActive} smooth={true}>
-					<img
-						className={styles.logo}
-						title="LifeHack 2021"
-						src={logo}
-						alt="LifeHack Logo"
-					/>
-				</Link>
-			</div>
-			<ul className={navActive ? styles.navActive : styles.navLinks}>
-				<li>
-					<Link
-						to="timeline"
-						offset={-100}
-						onClick={closeNavActive}
-						smooth={true}
-					>
-						Timeline
-					</Link>
-				</li>
-				<li>
-					<Link
-						to="workshops"
-						offset={-100}
-						onClick={closeNavActive}
-						smooth={true}
-					>
-						Workshops
-					</Link>
-				</li>
-				<li>
-					<Link
-						to="prizes"
-						offset={-100}
-						onClick={closeNavActive}
-						smooth={true}
-					>
-						Prizes
-					</Link>
-				</li>
-				<li>
-					<Link to="faq" offset={-100} onClick={closeNavActive} smooth={true}>
-						FAQ
-					</Link>
-				</li>
-				<li>
-					<Link
-						to="sponsors"
-						offset={-100}
-						onClick={closeNavActive}
-						smooth={true}
-					>
-						Sponsors
-					</Link>
-				</li>
-				<li>
-					<a
-						href="https://www.instagram.com/nuscomputingclub/"
-						target="_blank"
-						className={styles.registerButton}
-						onClick={closeNavActive}
-					>
-						REGISTER NOW
-					</a>
-				</li>
-			</ul>
-			<div
-				className={styles.burger}
-				onClick={(event) => setNavActive(!navActive)}
-			>
-				<div className={navActive ? styles.line1 : styles.inactive}></div>
-				<div className={navActive ? styles.line2 : styles.inactive}></div>
-				<div className={navActive ? styles.line3 : styles.inactive}></div>
-			</div>
-		</nav>
+  const closeNav = () => {
+    setNavActive(false);
+  };
 
-		// <header>
-		//   {headerButtons.map((headerButton) => (
-		//     <HeaderButton key={headerButton} buttonName={headerButton} />
-		//   ))}
-		//   <button className={styles.registerButton}>
-		//     <h3>Register Now!</h3>
-		//   </button>
-		// </header>
-	);
+  return (
+    <nav className={styles.nav}>
+      <div className={styles.logoContainer}>
+        <HeaderItem
+          to="main"
+          onClick={closeNav}
+          content={
+            <img
+              className={styles.logo}
+              title="LifeHack 2021"
+              src={logo}
+              alt="LifeHack Logo"
+            />
+          }
+        />
+      </div>
+      <ul className={navActive ? styles.navActive : styles.navLinks}>
+        <li>
+          <HeaderItem to="timeline" onClick={closeNav} content="Timeline" />
+        </li>
+        <li>
+          <HeaderItem to="workshops" onClick={closeNav} content="Workshops" />
+        </li>
+        <li>
+          <HeaderItem to="prizes" onClick={closeNav} content="Prizes" />
+        </li>
+        <li>
+          <HeaderItem to="faq" onClick={closeNav} content="FAQ" />
+        </li>
+        <li>
+          <HeaderItem to="sponsors" onClick={closeNav} content="Sponsors" />
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/nuscomputingclub/"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.registerButton}
+            onClick={closeNav}
+          >
+            REGISTER NOW
+          </a>
+        </li>
+      </ul>
+      <div className={styles.burgerContainer}>
+        <div className={styles.burger} onClick={toggleNav}>
+          <div className={navActive ? styles.line1 : styles.inactive}></div>
+          <div className={navActive ? styles.line2 : styles.inactive}></div>
+          <div className={navActive ? styles.line3 : styles.inactive}></div>
+        </div>
+      </div>
+    </nav>
+  );
 };
 
 export default Header;

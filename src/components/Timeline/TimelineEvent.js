@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     position: "relative",
-    top: "-1.3rem",
+    top: "-.7rem",
     backgroundColor: "transparent",
     paddingLeft: ".5rem",
     paddingBottom: ".5rem",
@@ -51,6 +51,30 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "400",
     fontSize: "1.25rem",
     paddingTop: "0",
+  },
+  ["@media (max-width: 765px)"]: {
+    title: {
+      fontSize: "1.4rem",
+    },
+    date: {
+      fontSize: "1.2rem",
+    },
+  },
+  ["@media (max-width: 620x)"]: {
+    title: {
+      fontSize: "1.3rem",
+    },
+    date: {
+      fontSize: "1.1rem",
+    },
+  },
+  ["@media (max-width: 500px)"]: {
+    title: {
+      fontSize: "1.2rem",
+    },
+    date: {
+      fontSize: "1rem",
+    },
   },
 }));
 
