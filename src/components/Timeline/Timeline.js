@@ -67,6 +67,6 @@ const HackTimeline = () => {
       </div>
     </div>
   );
-}
+};
 
 export default HackTimeline;

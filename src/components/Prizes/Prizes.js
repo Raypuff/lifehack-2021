@@ -32,9 +32,9 @@ const Prizes = () => {
           <BigPrize logo={ThirdPrizeLogo} label="Third Prize" award="S$1600" />
         </div>
         <p className={styles.subheader}>
-          Don&apos;t think you could win the top prizes? You can still try for the
-          prizes in our special category too! Each team will be awarded S$400 as
-          well as 4 of our very own SOCcats!
+          Don&apos;t think you could win the top prizes? You can still try for
+          the prizes in our special category too! Each team will be awarded
+          S$400 as well as 4 of our very own SOCcats!
         </p>
 
         {/* <hr className={styles.divider} /> */}

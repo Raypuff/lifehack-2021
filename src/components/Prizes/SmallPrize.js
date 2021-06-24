@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import styles from "./Prizes.module.css";
 
-const SmallPrize = props => {
+const SmallPrize = (props) => {
   return (
     <Fade bottom>
       <div className={styles.smallPrizeContainer}>
@@ -11,6 +11,6 @@ const SmallPrize = props => {
       </div>
     </Fade>
   );
-}
+};
 
 export default SmallPrize;

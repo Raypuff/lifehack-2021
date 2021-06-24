@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import aboutLogo from "../../images/about.png";
 import educationLogo from "../../images/education.png";
 import socialLogo from "../../images/social.png";

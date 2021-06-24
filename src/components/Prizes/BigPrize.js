@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import styles from "./Prizes.module.css";
 
-const BigPrize = props => {
+const BigPrize = (props) => {
   return (
     <Fade bottom>
       <div
@@ -22,6 +22,6 @@ const BigPrize = props => {
       </div>
     </Fade>
   );
-}
+};
 
 export default BigPrize;

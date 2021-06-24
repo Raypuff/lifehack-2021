@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import HeaderItem from "./HeaderItem";
 import logo from "../../images/lifehack-logo.svg";
 import styles from "./Header.module.css";

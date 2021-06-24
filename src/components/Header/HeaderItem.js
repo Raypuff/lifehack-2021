@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import styles from "./Header.module.css";
 
-const HeaderItem = props => {
+const HeaderItem = (props) => {
   return (
     <div className={styles.headerItem}>
       <Link to={props.to} smooth={true} offset={-55}>
@@ -10,6 +10,6 @@ const HeaderItem = props => {
       </Link>
     </div>
   );
-}
+};
 
 export default HeaderItem;

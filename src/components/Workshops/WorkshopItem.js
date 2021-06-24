@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import styles from "./Workshops.module.css";
 
-const WorkshopItem = props => {
+const WorkshopItem = (props) => {
   return (
     <Fade bottom>
       <div className={styles.workshopItem}>
@@ -29,6 +29,6 @@ const WorkshopItem = props => {
       </div>
     </Fade>
   );
-}
+};
 
 export default WorkshopItem;
