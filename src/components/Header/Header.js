@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from 'react';
 import HeaderItem from "./HeaderItem";
 import logo from "../../images/lifehack-logo.svg";
 import styles from "./Header.module.css";
@@ -31,9 +31,9 @@ const Header = () => {
         />
       </div>
       <ul className={navActive ? styles.navActive : styles.navLinks}>
-      <li>
-      <HeaderItem to="about" onClick={closeNav} content="About" />
-      </li>
+        <li>
+          <HeaderItem to="about" onClick={closeNav} content="About" />
+        </li>
         <li>
           <HeaderItem to="timeline" onClick={closeNav} content="Timeline" />
         </li>

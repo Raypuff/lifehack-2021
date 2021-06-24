@@ -1,198 +1,198 @@
 .background {
-	background-color: #eee;
-	/* background-image: linear-gradient(#fff 0%, #eee); */
-	/* background-image: linear-gradient(#fff, #eee, #fff); */
+  background-color: #eee;
+  /* background-image: linear-gradient(#fff 0%, #eee); */
+  /* background-image: linear-gradient(#fff, #eee, #fff); */
 }
 
 .prizes {
-	padding: 5vh 0;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	max-width: 75rem;
-	margin: 0 auto;
+  padding: 5vh 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .header {
-	text-align: center;
-	font-size: 2.5rem;
-	font-weight: 600;
-	margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
 }
 
 .subheader {
-	font-size: 1.75rem;
-	font-weight: 300;
-	margin-top: -1rem;
-	padding: 0 8vw;
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin-top: -1rem;
+  padding: 0 8vw;
 }
 
 .bigPrizes {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: 2rem auto 3rem;
-	width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem auto 3rem;
+  width: 80%;
 }
 
 .bigPrizeContainer {
-	width: 50%;
+  width: 50%;
 }
 
 .bigPrizeLogo {
-	width: 3.5rem;
+  width: 3.5rem;
 }
 
 .bigPrizeLabel {
-	font-size: 1.75rem;
-	margin: 0.5rem 0;
-	padding: 0;
+  font-size: 1.75rem;
+  margin: 0.5rem 0;
+  padding: 0;
 }
 
 .bigPrizeAward {
-	font-size: 2rem;
-	font-weight: 500;
-	margin: 0;
-	padding: 0;
-	white-space: nowrap;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
 }
 
 .bigPrizesMobile {
-	display: none;
+  display: none;
 }
 
 .divider {
-	width: 50rem;
-	margin: auto;
+  width: 50rem;
+  margin: auto;
 }
 
 .smallPrizes {
-	/* display: grid;
+  /* display: grid;
   width: 50rem;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
   align-self: center;
   justify-items: center; */
-	/* max-width: 50rem; */
-	margin: 1rem auto 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  /* max-width: 50rem; */
+  margin: 1rem auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .smallPrizeContainer {
-	margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .smallPrizeLabel {
-	font-size: 1.3rem;
-	margin: 0.5rem 0;
-	padding: 0;
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  padding: 0;
 }
 
 .smallPrizeAward {
-	font-size: 1.2rem;
-	margin: 0;
-	padding: 0;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1250px) {
-	.bigPrizeLogo {
-		width: 3rem;
-	}
+  .bigPrizeLogo {
+    width: 3rem;
+  }
 
-	.bigPrizeLabel {
-		font-size: 1.5rem;
-	}
+  .bigPrizeLabel {
+    font-size: 1.5rem;
+  }
 
-	.bigPrizeAward {
-		font-size: 1.3rem;
-	}
+  .bigPrizeAward {
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
-	.subheader {
-		font-size: 1.6rem;
-	}
+  .subheader {
+    font-size: 1.6rem;
+  }
 
-	.bigPrizeLogo {
-		width: 2.75rem;
-	}
+  .bigPrizeLogo {
+    width: 2.75rem;
+  }
 
-	.bigPrizeLabel {
-		font-size: 1.4rem;
-	}
+  .bigPrizeLabel {
+    font-size: 1.4rem;
+  }
 
-	.bigPrizeAward {
-		font-size: 1.2rem;
-	}
+  .bigPrizeAward {
+    font-size: 1.2rem;
+  }
 
-	.divider {
-		width: 45rem;
-	}
+  .divider {
+    width: 45rem;
+  }
 
-	.smallPrizes {
-	}
+  .smallPrizes {
+  }
 
-	.smallPrizeContainer {
-		width: 15rem;
-	}
+  .smallPrizeContainer {
+    width: 15rem;
+  }
 
-	.smallPrizeLabel {
-		font-size: 1.2rem;
-	}
+  .smallPrizeLabel {
+    font-size: 1.2rem;
+  }
 
-	.smallPrizeAward {
-		font-size: 1.1rem;
-	}
+  .smallPrizeAward {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 765px) {
-	.header {
-		font-size: 2rem;
-	}
+  .header {
+    font-size: 2rem;
+  }
 
-	.subheader {
-		font-size: 1.3rem;
-	}
+  .subheader {
+    font-size: 1.3rem;
+  }
 
-	.bigPrizes {
-		display: none;
-	}
+  .bigPrizes {
+    display: none;
+  }
 
-	.bigPrizesMobile {
-		display: flex;
-		flex-direction: column;
-		align-self: center;
-		margin-top: 1rem;
-		margin-bottom: 3rem;
-	}
+  .bigPrizesMobile {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
 
-	.bigPrizeContainer {
-		display: grid;
-		grid-template-columns: 5rem 10rem;
-	}
+  .bigPrizeContainer {
+    display: grid;
+    grid-template-columns: 5rem 10rem;
+  }
 
-	.bigPrizeLogo {
-		width: 2.5rem;
-		margin-right: 1rem;
-	}
+  .bigPrizeLogo {
+    width: 2.5rem;
+    margin-right: 1rem;
+  }
 
-	.bigPrizeText {
-		text-align: left;
-	}
+  .bigPrizeText {
+    text-align: left;
+  }
 
-	.smallPrizes {
-		grid-template-columns: repeat(1, 1fr);
-	}
+  .smallPrizes {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media screen and (max-width: 500px) {
-	.header {
-		font-size: 1.75rem;
-		margin-bottom: 1rem;
-	}
+  .header {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
 }

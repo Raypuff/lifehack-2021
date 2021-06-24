@@ -18,7 +18,7 @@ const TimelineItem = withStyles({
   },
 })(MuiTimelineItem);
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   dot: {
     color: "#1C1F35",
     backgroundColor: "transparent",
@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function TimelineEvent(props) {
+const TimelineEvent = (props) => {
   const classes = useStyles();
   return (
     <TimelineItem>

@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import styles from "./Workshops.module.css";
 
-function WorkshopItem(props) {
+const WorkshopItem = props => {
   return (
     <Fade bottom>
       <div className={styles.workshopItem}>

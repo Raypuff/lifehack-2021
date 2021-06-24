@@ -1,9 +1,9 @@
 .footer {
-	background-color: #001333;
-	text-align: center;
-	color: white;
-	display: grid;
-	place-items: center;
-	width: 100vw;
-	height: 10vh;
+  background-color: #001333;
+  text-align: center;
+  color: white;
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 10vh;
 }
