@@ -55,7 +55,7 @@ const FAQ = () => {
         ))}
       </div>
       <div className={styles.furtherEnq}>
-        <h5>For futher enquries, kindly email lifehack@nuscomputing.com</h5>
+        For futher enquries, kindly email lifehack@nuscomputing.com
       </div>
     </div>
   );
