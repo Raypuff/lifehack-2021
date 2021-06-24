@@ -1,138 +1,151 @@
+.background {
+	/* background-image: linear-gradient(#fff 50%, #002054); */
+}
+
 .workshops {
-  padding: 0 10vw;
-  padding-top: 5vh;
-  text-align: center;
+	padding: 0 10vw;
+	padding-top: 5vh;
+	text-align: center;
+	max-width: 75rem;
+	margin: 0 auto;
 }
 
 .header {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-bottom: 2.5rem;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-bottom: 2.5rem;
+}
+
+.image {
+	width: 15rem;
+	opacity: 85%;
 }
 
 .workshopGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 2.5rem;
-  column-gap: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	row-gap: 2.5rem;
+	column-gap: 1.5rem;
 }
 
 .workshopItem {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  display: flex;
-  margin: 0 auto;
-  align-content: center;
-  justify-content: center;
-  padding: 1rem 1.5rem;
-  border-radius: 20px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	background-color: rgb(255, 255, 255, 0.9);
+	display: flex;
+	margin: 0 auto;
+	align-content: center;
+	justify-content: center;
+	padding: 1rem 1.5rem;
+	border-radius: 20px;
+	max-width: 50rem;
 }
 
 .organizerLogoContainer {
-  width: 7.5vw;
-  border-radius: 100%;
-  align-self: center;
+	width: 7.5vw;
+	border-radius: 100%;
+	align-self: center;
 }
 
 .organizerLogo {
-  width: 7.5vw;
-  border-radius: 100%;
-  align-self: center;
+	width: 7.5vw;
+	border-radius: 100%;
+	align-self: center;
 }
 
 .content {
-  text-align: left;
-  align-self: center;
-  margin-left: 1.5rem;
+	text-align: left;
+	align-self: center;
+	margin-left: 1.5rem;
 }
 
 .title {
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin: 0;
+	font-size: 1.4rem;
+	font-weight: 600;
+	margin: 0;
 }
 
 .datetime {
-  font-size: 1.1rem;
-  font-weight: 400;
-  margin-top: .5rem;
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-top: 0.5rem;
 }
 
 .divider {
-  margin: 1rem 0;
-  width: 100%;
+	margin: 1rem 0;
+	width: 100%;
 }
 
 .description {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-top: .5rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-top: 0.5rem;
 }
 
 .organizer {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-top: .5rem;
-  margin-bottom: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-top: 0.5rem;
+	margin-bottom: 0;
 }
 
 @media screen and (max-width: 1250px) {
-  .title {
-    font-size: 1.3rem;
-  }
-  
-  .datetime {
-    font-size: 1rem;
-  }
+	.title {
+		font-size: 1.3rem;
+	}
 
-  .description {
-    font-size: 1.1rem;
-  }
-  
-  .organizer {
-    font-size: .9rem;
-  }
+	.datetime {
+		font-size: 1rem;
+	}
+
+	.description {
+		font-size: 1.1rem;
+	}
+
+	.organizer {
+		font-size: 0.9rem;
+	}
 }
 
 @media screen and (max-width: 900px) {
-  .organizerLogoContainer {
-    width: 12.5vw;
-  }
-  
-  .organizerLogo {
-    width: 12.5vw;
-  }
+	.organizerLogoContainer {
+		width: 12.5vw;
+	}
 
-  .workshopGrid {
-    grid-template-columns: repeat(1, 1fr);
-  }
+	.organizerLogo {
+		width: 12.5vw;
+	}
+
+	.workshopGrid {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }
 
 @media screen and (max-width: 765px) {
-  .header {
-    font-size: 2rem;
-  }
+	.header {
+		font-size: 2rem;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .header {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-  }
+	.header {
+		font-size: 1.75rem;
+		margin-bottom: 1rem;
+	}
 
-  .title {
-    font-size: 1.2rem;
-  }
-  
-  .datetime {
-    font-size: .9rem;
-  }
+	.title {
+		font-size: 1.2rem;
+	}
 
-  .description {
-    font-size: 1rem;
-  }
-  
-  .organizer {
-    font-size: .8rem;
-  }
+	.datetime {
+		font-size: 0.9rem;
+	}
+
+	.description {
+		font-size: 1rem;
+	}
+
+	.organizer {
+		font-size: 0.8rem;
+	}
 }

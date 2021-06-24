@@ -1,18 +1,20 @@
 .sponsors {
-  padding: 0 10vw;
-  padding-top: 10vh;
+	padding: 0 10vw;
+	padding-top: 10vh;
 	padding-bottom: 15vh;
-  text-align: center;
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	max-width: 75rem;
+	margin: 0 auto;
 }
 
 .header {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-bottom: 2.5rem;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-bottom: 2.5rem;
 }
 
 .title {
@@ -25,6 +27,11 @@
 	grid-template-columns: repeat(2, 1fr);
 	column-gap: 5rem;
 	row-gap: 3rem;
+	margin-bottom: 2rem;
+	/* display: flex;
+	flex-wrap: wrap;
+	gap: 5rem;
+	width: 80%; */
 }
 
 .logo {
@@ -33,6 +40,12 @@
 	max-width: 20vw;
 	max-height: 25vh;
 	object-fit: contain;
+}
+
+.smallLogo {
+	composes: logo;
+	max-width: 12vw;
+	max-height: 15vh;
 }
 
 @media screen and (max-width: 480px) {

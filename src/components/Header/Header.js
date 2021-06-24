@@ -31,6 +31,9 @@ const Header = () => {
         />
       </div>
       <ul className={navActive ? styles.navActive : styles.navLinks}>
+      <li>
+      <HeaderItem to="about" onClick={closeNav} content="About" />
+      </li>
         <li>
           <HeaderItem to="timeline" onClick={closeNav} content="Timeline" />
         </li>
@@ -48,7 +51,7 @@ const Header = () => {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/nuscomputingclub/"
+            href="https://nus.campuslabs.com/engage/submitter/form/start/489879"
             target="_blank"
             rel="noreferrer"
             className={styles.registerButton}
