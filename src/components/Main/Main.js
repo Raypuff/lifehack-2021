@@ -1,12 +1,16 @@
+import React from "react";
+import Bounce from "react-reveal/Bounce";
 import logo from "../../images/lifehack-logo.png";
 import styles from "./Main.module.css";
 
 const Main = () => {
   return (
     <div className={styles.mainBody} name="main">
-      <div className={styles.logoContainer}>
-        <img className={styles.logo} src={logo} alt="LifeHack logo"></img>
-      </div>
+      <Bounce>
+        <div className={styles.logoContainer}>
+          <img className={styles.logo} src={logo} alt="LifeHack logo"></img>
+        </div>
+      </Bounce>
       <div className={styles.description}>
         <p className={styles.title}>LifeHack 2021</p>
         <p className={styles.date}>23-24 July</p>
