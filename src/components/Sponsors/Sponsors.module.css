@@ -1,72 +1,72 @@
 .background {
-	background-color: #eee;
-	/* background-image: linear-gradient(#eee, #fff); */
-	/* background-image: linear-gradient(#fff, #eee, #fff); */
+  background-color: #eee;
+  /* background-image: linear-gradient(#eee, #fff); */
+  /* background-image: linear-gradient(#fff, #eee, #fff); */
 }
 
 .sponsors {
-	padding: 5vh 10vw 10vh;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	max-width: 75rem;
-	margin: 0 auto;
+  padding: 5vh 10vw 10vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .header {
-	text-align: center;
-	font-size: 2.5rem;
-	font-weight: 600;
-	margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
 }
 
 .title {
-	font-size: 1.75rem;
-	font-weight: 500;
+  font-size: 1.75rem;
+  font-weight: 500;
 }
 
 .logoContainer {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	column-gap: 5rem;
-	row-gap: 3rem;
-	margin-bottom: 2rem;
-	/* display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5rem;
+  row-gap: 3rem;
+  margin-bottom: 2rem;
+  /* display: flex;
 	flex-wrap: wrap;
 	gap: 5rem;
 	width: 80%; */
 }
 
 .logo {
-	margin: auto;
-	display: block;
-	max-width: 22rem;
-	/* max-height: 25vh; */
-	object-fit: contain;
+  margin: auto;
+  display: block;
+  max-width: 22rem;
+  /* max-height: 25vh; */
+  object-fit: contain;
 }
 
 .smallLogo {
-	composes: logo;
-	max-width: 15rem;
-	/* max-height: 15vh; */
+  composes: logo;
+  max-width: 15rem;
+  /* max-height: 15vh; */
 }
 
 @media screen and (max-width: 768px) {
-	.sponsors {
-		padding-bottom: 5vh;
-	}
-	.title {
-		margin-bottom: 3rem;
-	}
-	.logoContainer {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.logo {
-		max-width: 70vw;
-	}
-	.smallLogo {
-		max-width: 50vw;
-	}
+  .sponsors {
+    padding-bottom: 5vh;
+  }
+  .title {
+    margin-bottom: 3rem;
+  }
+  .logoContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo {
+    max-width: 70vw;
+  }
+  .smallLogo {
+    max-width: 50vw;
+  }
 }

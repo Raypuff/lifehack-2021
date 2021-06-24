@@ -18,7 +18,7 @@ const TimelineItem = withStyles({
   },
 })(MuiTimelineItem);
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((_theme) => ({
   dot: {
     color: "#1C1F35",
     backgroundColor: "transparent",
@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.25rem",
     paddingTop: "0",
   },
-  ["@media (max-width: 765px)"]: {
+  "@media (max-width: 765px)": {
     title: {
       fontSize: "1.4rem",
     },
@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "1.2rem",
     },
   },
-  ["@media (max-width: 620x)"]: {
+  "@media (max-width: 620x)": {
     title: {
       fontSize: "1.3rem",
     },
@@ -68,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "1.1rem",
     },
   },
-  ["@media (max-width: 500px)"]: {
+  "@media (max-width: 500px)": {
     title: {
       fontSize: "1.2rem",
     },
@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function TimelineEvent(props) {
+const TimelineEvent = (props) => {
   const classes = useStyles();
   return (
     <TimelineItem>
@@ -96,6 +96,6 @@ function TimelineEvent(props) {
       </TimelineContent>
     </TimelineItem>
   );
-}
+};
 
 export default TimelineEvent;

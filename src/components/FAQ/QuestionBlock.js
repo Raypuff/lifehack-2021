@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./FAQ.module.css";
 
-export default function QuestionBlock(props) {
+const QuestionBlock = (props) => {
   return (
     <div className={styles.tab}>
       <input type="checkbox" id={`checkbox-${props.id}`} />
@@ -11,4 +11,6 @@ export default function QuestionBlock(props) {
       <p className={styles.tabContent}>{props.answer}</p>
     </div>
   );
-}
+};
+
+export default QuestionBlock;

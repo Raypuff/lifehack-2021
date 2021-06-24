@@ -1,6 +1,7 @@
+import React from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
-import About from './components/About'
+import About from "./components/About";
 import HackTimeline from "./components/Timeline";
 import Workshops from "./components/Workshops";
 import Prizes from "./components/Prizes";
@@ -16,7 +17,7 @@ const App = () => {
       <Header />
       <div className={styles.content}>
         <Main />
-        <About/>
+        <About />
         <HackTimeline />
         <Workshops />
         <Prizes />

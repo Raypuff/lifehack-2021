@@ -1,57 +1,57 @@
 .background {
-	background-image: linear-gradient(#002054, #6fbafa 25%, #fff);
+  background-image: linear-gradient(#002054, #6fbafa 25%, #fff);
 }
 
 .timeline {
-	display: flex;
-	flex-direction: row-reverse;
-	padding: 10vh 1rem 0;
-	max-width: 75rem;
-	margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10vh 1rem 0;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .header {
-	font-size: 2.5rem;
-	font-weight: 600;
-	margin: 1rem 1.5rem 0;
-	/* color: rgb(255, 255, 255, 0.8); */
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 1rem 1.5rem 0;
+  /* color: rgb(255, 255, 255, 0.8); */
 }
 
 .image {
-	width: 15rem;
-	height: min-content;
-	object-fit: contain;
+  width: 15rem;
+  height: min-content;
+  object-fit: contain;
 }
 
 .container {
-	display: flex;
-	width: 100%;
-	justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 765px) {
-	.header {
-		font-size: 2rem;
-	}
+  .header {
+    font-size: 2rem;
+  }
 
-	.container {
-		font-size: 1rem;
-	}
+  .container {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 620px) {
-	.timeline {
-		flex-direction: column;
-	}
+  .timeline {
+    flex-direction: column;
+  }
 
-	.header {
-		margin: 0 auto 1.5rem;
-	}
+  .header {
+    margin: 0 auto 1.5rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
-	.header {
-		font-size: 1.75rem;
-		margin-bottom: 1rem;
-	}
+  .header {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
 }

@@ -1,91 +1,91 @@
 .background {
-	/* background-image: linear-gradient(#002054, #6fbafa); */
-	background-color: #002054;
+  /* background-image: linear-gradient(#002054, #6fbafa); */
+  background-color: #002054;
 }
 
 .sponsors {
-	padding: 0 8vw;
-	padding-top: 8vh;
-	padding-bottom: 8vh;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	max-width: 75rem;
-	margin: 0 auto;
+  padding: 0 8vw;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .themeRow {
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .themeImage {
-	width: 20rem;
+  width: 20rem;
 }
 
 .header {
-	text-align: center;
-	font-size: 2.5rem;
-	font-weight: 600;
-	margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
 }
 
 .image {
-	width: 9rem;
-	/* object-fit: contain; */
-	/* height: 5rem; */
+  width: 9rem;
+  /* object-fit: contain; */
+  /* height: 5rem; */
 }
 
 .title {
-	font-size: 1.75rem;
-	font-weight: 300;
-	color: rgb(255, 255, 255, 0.75);
-	text-align: justify;
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255, 0.75);
+  text-align: justify;
 }
 
 .title2 {
-	composes: title;
-	text-align: center;
+  composes: title;
+  text-align: center;
 }
 
 .logoContainer {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	column-gap: 5rem;
-	row-gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5rem;
+  row-gap: 3rem;
 }
 
 .logo {
-	margin: auto;
-	display: block;
-	max-width: 20vw;
-	max-height: 25vh;
-	object-fit: contain;
+  margin: auto;
+  display: block;
+  max-width: 20vw;
+  max-height: 25vh;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 620px) {
-	.sponsors {
-		padding: 0 2rem;
-	}
-	.title {
-		font-size: 1.2rem;
-	}
-	.themeRow {
-		flex-direction: column;
-		align-items: center;
-	}
-	.themeImage {
-		width: 75vw;
-	}
+  .sponsors {
+    padding: 0 2rem;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .themeRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .themeImage {
+    width: 75vw;
+  }
 }
 
 @media screen and (max-width: 480px) {
-	.logo {
-		width: 55vw;
-	}
-	.mainLogo {
-		width: 75vw;
-	}
+  .logo {
+    width: 55vw;
+  }
+  .mainLogo {
+    width: 75vw;
+  }
 }
