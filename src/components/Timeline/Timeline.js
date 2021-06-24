@@ -26,6 +26,31 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const timeline = [
+  { title: "Registration", datetime: "25 June - 16 July" },
+  { title: "Workshops", datetime: "19 July - 22 July" },
+  {
+    title: "Opening Ceremony",
+    datetime: "23 July, 9:30am - 12:00pm",
+  },
+  {
+    title: "Release of Problem Statements",
+    datetime: "23 July, 12:00pm",
+  },
+  {
+    title: "Submission of Hack",
+    datetime: "24 July, 12:00pm",
+  },
+  {
+    title: "Announcement of Winners",
+    datetime: "25 July, 12:00pm",
+  },
+  {
+    title: "Closing Ceremony and Prize Presentation",
+    datetime: "25 July, 3:00pm - 4:30pm",
+  },
+];
+
 const HackTimeline = () => {
   const classes = useStyles();
 
@@ -34,31 +59,15 @@ const HackTimeline = () => {
       {" "}
       <div className={styles.timeline} name="timeline">
         <p className={styles.header}>Timeline</p>
-        {/* <img className={styles.image} src={timelineLogo} alt="TIMELINE" /> */}
         <div className={styles.container}>
           <Timeline align="left" className={classes.timeline}>
-            <TimelineEvent title="Registration" datetime="25 June - 16 July" />
-            <TimelineEvent title="Workshops" datetime="19 July - 22 July" />
-            <TimelineEvent
-              title="Opening Ceremony"
-              datetime="23 July, 9:30am - 12:00pm"
-            />
-            <TimelineEvent
-              title="Release of Problem Statements"
-              datetime="23 July, 12:00pm"
-            />
-            <TimelineEvent
-              title="Submission of Hack"
-              datetime="24 July, 12:00pm"
-            />
-            <TimelineEvent
-              title="Announcement of Winners"
-              datetime="25 July, 12:00pm"
-            />
-            <TimelineEvent
-              title="Closing Ceremony and Prize Presentation"
-              datetime="25 July, 3:00pm - 4:30pm"
-            />
+            {timeline.map((event, idx) => (
+              <TimelineEvent
+                title={event.title}
+                datetime={event.datetime}
+                key={"timeline-" + idx}
+              />
+            ))}
             <TimelineDot className={classes.dot}>
               <PowerIcon className={classes.powerIcon} />
             </TimelineDot>
