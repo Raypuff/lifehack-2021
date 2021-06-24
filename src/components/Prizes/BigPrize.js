@@ -3,21 +3,26 @@ import Fade from "react-reveal/Fade";
 import styles from "./Prizes.module.css";
 
 const BigPrize = (props) => {
+  const { logo, label, award, isFirstPrize } = props;
+
   return (
     <Fade bottom>
       <div
-        className={styles.bigPrizeContainer}
-        style={{ marginTop: props.label !== "First Prize" ? "2rem" : "0" }}
+        className={
+          isFirstPrize
+            ? styles.bigFirstPrizeContainer
+            : styles.bigPrizeContainer
+        }
       >
         <img
           className={styles.bigPrizeLogo}
-          src={props.logo}
-          alt={props.label}
+          src={logo}
+          alt={label}
           loading="lazy"
         />
         <div className={styles.bigPrizeText}>
-          <p className={styles.bigPrizeLabel}>{props.label}</p>
-          <p className={styles.bigPrizeAward}>{props.award}</p>
+          <p className={styles.bigPrizeLabel}>{label}</p>
+          <p className={styles.bigPrizeAward}>{award}</p>
         </div>
       </div>
     </Fade>

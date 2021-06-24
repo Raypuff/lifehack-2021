@@ -36,6 +36,12 @@
 
 .bigPrizeContainer {
   width: 50%;
+  margin-top: 2rem;
+}
+
+.bigFirstPrizeContainer {
+  composes: bigPrizeContainer;
+  margin-top: 0;
 }
 
 .bigPrizeLogo {
@@ -130,9 +136,6 @@
 
   .divider {
     width: 45rem;
-  }
-
-  .smallPrizes {
   }
 
   .smallPrizeContainer {

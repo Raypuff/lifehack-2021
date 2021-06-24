@@ -15,6 +15,16 @@ const Header = () => {
     setNavActive(false);
   };
 
+  const burger = (
+    <div className={styles.burgerContainer}>
+      <div className={styles.burger} onClick={toggleNav}>
+        <div className={navActive ? styles.line1 : styles.inactive}></div>
+        <div className={navActive ? styles.line2 : styles.inactive}></div>
+        <div className={navActive ? styles.line3 : styles.inactive}></div>
+      </div>
+    </div>
+  );
+
   return (
     <nav className={styles.nav}>
       <div className={styles.logoContainer}>
@@ -62,13 +72,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
-      <div className={styles.burgerContainer}>
-        <div className={styles.burger} onClick={toggleNav}>
-          <div className={navActive ? styles.line1 : styles.inactive}></div>
-          <div className={navActive ? styles.line2 : styles.inactive}></div>
-          <div className={navActive ? styles.line3 : styles.inactive}></div>
-        </div>
-      </div>
+      {burger}
     </nav>
   );
 };
