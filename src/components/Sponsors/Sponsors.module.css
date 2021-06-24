@@ -53,10 +53,20 @@
 }
 
 @media screen and (max-width: 480px) {
-	.logo {
-		width: 55vw;
+	.sponsors {
+		padding-bottom: 5vh;
 	}
-	.mainLogo {
-		width: 75vw;
+	.title {
+		margin-bottom: 3rem;
+	}
+	.logoContainer {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.logo {
+		max-width: 80vw;
+	}
+	.smallLogo {
+		max-width: 50vw;
 	}
 }
