@@ -43,6 +43,7 @@
 .navActive li,
 .navLinks li {
   list-style: none;
+  text-align: center;
 }
 
 .navActive li:last-child a,
@@ -57,12 +58,6 @@
   font-weight: 400;
   cursor: pointer;
   margin: 0 1rem;
-}
-
-.navLinks {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
 }
 
 .burger {
@@ -87,13 +82,25 @@
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 840px) {
   .logoContainer {
     margin-left: 1rem;
   }
 
   .navLinks {
-    display: none;
+    width: auto;
+    position: absolute;
+    right: 0;
+    height: calc(90vh + 1px);
+    top: calc(10vh - 1px);
+    background-color: #002054;
+    padding: 0 1.75rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
   }
 
   .burger {
@@ -112,10 +119,11 @@
 }
 
 .navActive {
+  width: 40vw;
   position: absolute;
-  right: 0px;
-  height: 90vh;
-  top: 10vh;
+  right: 0;
+  height: calc(90vh + 1px);
+  top: calc(10vh - 1px);
   background-color: #002054;
   padding: 0 1.75rem;
   margin: 0;

@@ -20,7 +20,7 @@ const WorkshopItems = [
     title: "How CSIT looks into AI",
     datetime: "19 July, 7:00pm - 8:30pm",
     description:
-      "As Articial Intelligence becomes more relevant by the day, how is CSIT utilizing AI with data science?",
+      "As Artificial Intelligence becomes more relevant by the day, how is CSIT utilizing AI with data science?",
     organizer: "CSIT",
     organizerLogo: CSITLogo,
     organizerLink: "https://www.csit.gov.sg/",
