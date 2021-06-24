@@ -1,3 +1,8 @@
+.background {
+	/* background-image: linear-gradient(#eee, #fff); */
+	/* background-image: linear-gradient(#fff, #eee, #fff); */
+}
+
 .sponsors {
 	padding: 0 10vw;
 	padding-top: 10vh;
