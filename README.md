@@ -13,5 +13,5 @@ This project is configured with ESLint and Prettier. You may also run `npm lint`
 
 ## Acknowledgements
 - The github workflow to deploy this site was adapted from https://github.com/ClydeDz/create-react-app-ghpages-demo/blob/step-2/.github/workflows/build-deploy.yml.
-- The following libraries were used
+- The following libraries were used:
   -  [Material-UI](https://material-ui.com)
