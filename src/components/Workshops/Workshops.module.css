@@ -2,6 +2,8 @@
   padding: 0 10vw;
   padding-top: 5vh;
   text-align: center;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .header {
@@ -26,6 +28,7 @@
   justify-content: center;
   padding: 1rem 1.5rem;
   border-radius: 20px;
+  max-width: 50rem
 }
 
 .organizerLogoContainer {

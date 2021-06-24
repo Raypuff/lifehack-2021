@@ -7,7 +7,13 @@ const Register = () => {
 				So what are you waiting for?
 				<br />
 			</p>
-			<button className={styles.registerButton}>REGISTER NOW</button>
+			<a
+            href="https://nus.campuslabs.com/engage/submitter/form/start/489879"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.registerButton}
+         
+          >REGISTER NOW</a>
 		</div>
 	);
 };

@@ -41,7 +41,7 @@ export default function HackTimeline() {
             datetime="23 July, 9:30am - 12:00pm"
           />
           <TimelineEvent
-            title="Release of Problem Statement"
+            title="Release of Problem Statements"
             datetime="23 July, 12:00pm"
           />
           <TimelineEvent

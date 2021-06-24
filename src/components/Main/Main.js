@@ -11,10 +11,10 @@ const Main = () => {
         <p className={styles.title}>LifeHack 2021</p>
         <p className={styles.date}>23-24 July</p>
         <p className={styles.subtitle}>
-          Stay ahead of change. Innovate the future
+          Stay ahead of change. Innovate the future.
         </p>
         <a
-          href="https://www.instagram.com/nuscomputingclub/"
+          href="https://nus.campuslabs.com/engage/submitter/form/start/489879"
           target="_blank"
           rel="noreferrer"
           className={styles.registerButton}
@@ -31,7 +31,7 @@ const Main = () => {
         </p>
         {/* <p className={styles.title}>LifeHack 2021</p> */}
         <a
-          href="https://www.instagram.com/nuscomputingclub/"
+          href="https://nus.campuslabs.com/engage/submitter/form/start/489879"
           target="_blank"
           rel="noreferrer"
           className={styles.registerButton}

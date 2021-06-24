@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .header {
@@ -17,6 +19,7 @@
   font-size: 1.75rem;
   font-weight: 150;
   margin-top: -1rem;
+  padding: 0 8vw;
 }
 
 .bigPrizes {

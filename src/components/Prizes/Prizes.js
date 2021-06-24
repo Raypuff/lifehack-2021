@@ -10,26 +10,27 @@ const Prizes = () => {
     <div className={styles.prizes} name="prizes">
       <h1 className={styles.header}>Prizes</h1>
       <p className={styles.subheader}>
-        These prizes will be awarded to 2 teams, one from each group.
+        Prizes are awarded to winners from each Theme. Meaning that up to S$17,000 worth of prizes are being given away!
       </p>
       <div className={styles.bigPrizes}>
-        <BigPrize logo={SecondPrizeLogo} label="Second Prize" award="$1600" />
-        <BigPrize logo={FirstPrizeLogo} label="First Prize" award="$3200" />
-        <BigPrize logo={ThirdPrizeLogo} label="Third Prize" award="800" />
+        <BigPrize logo={SecondPrizeLogo} label="Third Prize" award="S$2400" />
+        <BigPrize logo={FirstPrizeLogo} label="First Prize" award="S$3200" />
+        <BigPrize logo={ThirdPrizeLogo} label="Second Prize" award="S$1600" />
       </div>
       <div className={styles.bigPrizesMobile}>
-        <BigPrize logo={FirstPrizeLogo} label="First Prize" award="$3200" />
-        <BigPrize logo={SecondPrizeLogo} label="Second Prize" award="$1600" />
-        <BigPrize logo={ThirdPrizeLogo} label="Third Prize" award="800" />
+        <BigPrize logo={FirstPrizeLogo} label="First Prize" award="S$3200" />
+        <BigPrize logo={SecondPrizeLogo} label="Second Prize" award="S$2400" />
+        <BigPrize logo={ThirdPrizeLogo} label="Third Prize" award="S$1600" />
       </div>
       <hr className={styles.divider} />
       <div className={styles.smallPrizes}>
-        <SmallPrize label="Most Impressive Pre-University Hack" award="$$$" />
+      <SmallPrize label="Special Category Prizes" award="S$400 + 4 SOCcats" />
+        {/* <SmallPrize label="Most Impressive Pre-University Hack" award="S$400" />
         <SmallPrize label="Most Outstanding Undergraduate Hack" award="$$$" />
         <SmallPrize label="Most Relevant To Both Themes" award="$$$" />
         <SmallPrize label="Most Boomer-Friendly" award="$$$" />
         <SmallPrize label="Secret Special Category" award="$$$" />
-        <SmallPrize label="Luckiest Team (lucky draw)" award="$$$" />
+        <SmallPrize label="Luckiest Team (lucky draw)" award="$$$" /> */}
       </div>
     </div>
   );

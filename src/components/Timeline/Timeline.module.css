@@ -1,6 +1,7 @@
 .timeline {
   padding: 0;
   padding-top: 6vh;
+  max-width: 75rem;
 }
 
 .header {
