@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 10vh;
+	margin-top: calc(10vh - 1px);
 	height: 90vh;
 	padding: 0 8rem;
 	background-color: #002054;
@@ -22,9 +22,9 @@
 	height: 25rem;
 	left: 50%;
 	top: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .description {
@@ -41,7 +41,7 @@
 	font-weight: 500;
 	color: #fff;
 	margin: 0;
-	margin-bottom: .5rem;
+	margin-bottom: 0.5rem;
 	padding: 0;
 }
 
@@ -50,7 +50,7 @@
 	font-weight: 300;
 	color: #fff;
 	margin: 0;
-	margin-bottom: .5rem;
+	margin-bottom: 0.5rem;
 	padding: 0;
 }
 
@@ -94,13 +94,12 @@
 	}
 }
 
-
 @media screen and (max-width: 1015px) {
 	.logoContainer {
 		width: 20rem;
 		height: 20rem;
 	}
-	
+
 	.logo {
 		width: 22.5rem;
 		height: 22.5rem;
@@ -132,7 +131,7 @@
 		width: 17.5rem;
 		height: 17.5rem;
 	}
-	
+
 	.logo {
 		width: 20rem;
 		height: 20rem;
