@@ -1,12 +1,11 @@
 .background {
+	background-color: #eee;
 	/* background-image: linear-gradient(#eee, #fff); */
 	/* background-image: linear-gradient(#fff, #eee, #fff); */
 }
 
 .sponsors {
-	padding: 0 10vw;
-	padding-top: 10vh;
-	padding-bottom: 15vh;
+	padding: 5vh 10vw 10vh;
 	text-align: center;
 	display: flex;
 	flex-direction: column;

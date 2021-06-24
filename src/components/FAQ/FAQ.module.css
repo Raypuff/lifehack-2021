@@ -4,8 +4,7 @@
 }
 
 .faq {
-	padding: 0 10vw;
-	padding-top: 10vh;
+	padding: 5vh 10vw;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
