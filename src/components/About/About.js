@@ -7,7 +7,6 @@ const About = () => {
 	return (
 		<div className={styles.background}>
 			<div className={styles.sponsors} name="about">
-				{/* <h2 className={styles.header}>about</h2> */}
 				<img className={styles.image} alt="ABOUT" src={aboutLogo} />
 				<p className={styles.title}>
 					LifeHack 2021 is a 24h virtual hackathon that wants you to develop
@@ -21,8 +20,6 @@ const About = () => {
 					There will be 2 themes for participants to choose from
 				</p>
 				<div className={styles.themeRow}>
-					{/* <h3 className={styles.header}>Education</h3>
-					<h3 className={styles.header}>Social</h3> */}
 					<img
 						className={styles.themeImage}
 						src={educationLogo}
