@@ -1,6 +1,6 @@
 # LifeHack 2021 Website
 
-A website built for LifeHack 2021, a Summer Hackathon organized by NUS Students' Computing Club 23rd Management Committee's Academic Liaison Cell. The site is currently deployed at https://lifehack.nuscomputing.com.
+A website built for LifeHack 2021, a Summer Hackathon organized by NUS Students' Computing Club 23rd Management Committee's Academic Liaison Cell. The site is currently deployed at http://lifehack.nuscomputing.com.
 
 ## Getting started
 1. Install a stable version of NodeJS.
