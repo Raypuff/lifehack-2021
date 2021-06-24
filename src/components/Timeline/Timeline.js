@@ -22,8 +22,7 @@ const useStyles = makeStyles((theme) => ({
     height: "2.5rem",
   },
   timeline: {
-    marginLeft: "14rem",
-    marginTop: "-1rem",
+    marginLeft: "10vw",
   },
 }));
 
