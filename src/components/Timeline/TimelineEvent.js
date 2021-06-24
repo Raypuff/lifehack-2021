@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import {
   TimelineItem as MuiTimelineItem,
   TimelineSeparator,
@@ -82,22 +81,20 @@ const useStyles = makeStyles((theme) => ({
 function TimelineEvent(props) {
   const classes = useStyles();
   return (
-    <Fade>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot className={classes.dot}>
-            <PowerSettingsNewRoundedIcon />
-          </TimelineDot>
-          <TimelineConnector className={classes.connector} />
-        </TimelineSeparator>
-        <TimelineContent className={classes.content}>
-          <Paper elevation={0} className={classes.paper}>
-            <Typography className={classes.title}>{props.title}</Typography>
-            <Typography className={classes.date}>{props.datetime}</Typography>
-          </Paper>
-        </TimelineContent>
-      </TimelineItem>
-    </Fade>
+    <TimelineItem>
+      <TimelineSeparator>
+        <TimelineDot className={classes.dot}>
+          <PowerSettingsNewRoundedIcon />
+        </TimelineDot>
+        <TimelineConnector className={classes.connector} />
+      </TimelineSeparator>
+      <TimelineContent className={classes.content}>
+        <Paper elevation={0} className={classes.paper}>
+          <Typography className={classes.title}>{props.title}</Typography>
+          <Typography className={classes.date}>{props.datetime}</Typography>
+        </Paper>
+      </TimelineContent>
+    </TimelineItem>
   );
 }
 
