@@ -5,6 +5,7 @@ import NusHackersLogo from "../../images/organizations/nus-hackers.png";
 import CSITLogo from "../../images/organizations/csit-logo.png";
 import WebsparksLogo from "../../images/organizations/websparks-logo.png";
 import styles from "./Workshops.module.css";
+import { Links } from "../../Constants";
 
 const WorkshopItems = [
   {
@@ -14,7 +15,7 @@ const WorkshopItems = [
       "So, you got an amazing hackathon idea. But that's not enough to in it! In this workshop, we show you the five essential ingredients on how to ace a hackathon",
     organizer: "NUS StartIT",
     organizerLogo: StartITLogo,
-    organizerLink: "https://www.instagram.com/nusstartit/",
+    organizerLink: Links.startIT,
   },
   {
     title: "How CSIT looks into AI",
@@ -23,7 +24,7 @@ const WorkshopItems = [
       "As Artificial Intelligence becomes more relevant by the day, how is CSIT utilizing AI with data science?",
     organizer: "CSIT",
     organizerLogo: CSITLogo,
-    organizerLink: "https://www.csit.gov.sg/",
+    organizerLink: Links.csit,
   },
   {
     title: "Using Python to make your first Telegram bot",
@@ -32,7 +33,7 @@ const WorkshopItems = [
       "Learn how you can use Python to create your very own Telegram bot!",
     organizer: "NUS Hackers",
     organizerLogo: NusHackersLogo,
-    organizerLink: "https://www.nushackers.org/",
+    organizerLink: Links.nusHackers,
   },
   {
     title: "How to incorporate UI/UX concepts into your designs",
@@ -41,7 +42,7 @@ const WorkshopItems = [
       "Hear directly from industry professionals how to make designs that are not just beautiful but functional",
     organizer: "Websparks",
     organizerLogo: WebsparksLogo,
-    organizerLink: "https://www.websparks.sg/",
+    organizerLink: Links.websparks,
   },
   {
     title: "Web development with React",
@@ -50,7 +51,7 @@ const WorkshopItems = [
       "Learn how you can easily use React to create your very first interactive website!",
     organizer: "Websparks",
     organizerLogo: WebsparksLogo,
-    organizerLink: "https://www.websparks.sg/",
+    organizerLink: Links.websparks,
   },
   {
     title: "Operationalizing your applications at scale in the cloud!",
@@ -59,7 +60,7 @@ const WorkshopItems = [
       "Through the use of AWS cloud services, we will show you how to deploy your advanced applications such that it can handle many users",
     organizer: "CSIT",
     organizerLogo: CSITLogo,
-    organizerLink: "https://www.csit.gov.sg/",
+    organizerLink: Links.csit,
   },
 ];
 

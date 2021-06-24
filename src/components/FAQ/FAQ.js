@@ -1,6 +1,7 @@
 import React from "react";
 import QuestionBlock from "./QuestionBlock";
 import styles from "./FAQ.module.css";
+import { email } from "../../Constants";
 
 const FAQ = () => {
   const questionList = [
@@ -17,7 +18,7 @@ const FAQ = () => {
     {
       id: "3",
       qn: "I don’t have a team member. Can I still participate?",
-      ans: "Each team should have 2 to 4 members. You may email us at lifehack@nuscomputing.com and we can try to match you up with someone.",
+      ans: `Each team should have 2 to 4 members. You may email us at ${email} and we can try to match you up with someone.`,
     },
     {
       id: "4",
@@ -66,7 +67,7 @@ const FAQ = () => {
           ))}
         </div>
         <div className={styles.furtherEnq}>
-          For futher enquries, kindly email lifehack@nuscomputing.com
+          For futher enquries, kindly email {email}
         </div>
       </div>
     </div>

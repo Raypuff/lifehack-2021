@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import HeaderItem from "./HeaderItem";
 import logo from "../../images/lifehack-logo.svg";
 import styles from "./Header.module.css";
+import { Links } from "../../Constants";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
@@ -51,7 +52,7 @@ const Header = () => {
         </li>
         <li>
           <a
-            href="https://nus.campuslabs.com/engage/submitter/form/start/489879"
+            href={Links.registration}
             target="_blank"
             rel="noreferrer"
             className={styles.registerButton}

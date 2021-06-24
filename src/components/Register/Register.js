@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Tada from "react-reveal/Tada";
+import { Links } from "../../Constants";
 import styles from "./Register.module.css";
 
 const Register = () => {
@@ -14,7 +15,7 @@ const Register = () => {
       </Fade>
       <Tada>
         <a
-          href="https://nus.campuslabs.com/engage/submitter/form/start/489879"
+          href={Links.registration}
           target="_blank"
           rel="noreferrer"
           className={styles.registerButton}

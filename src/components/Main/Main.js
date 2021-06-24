@@ -1,8 +1,20 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import Slide from "react-reveal/Slide";
+import { Links } from "../../Constants";
 import logo from "../../images/lifehack-logo.png";
 import styles from "./Main.module.css";
+
+const registerButton = (
+  <a
+    href={Links.registration}
+    target="_blank"
+    rel="noreferrer"
+    className={styles.registerButton}
+  >
+    REGISTER NOW
+  </a>
+);
 
 const Main = () => {
   return (
@@ -19,14 +31,7 @@ const Main = () => {
           <p className={styles.subtitle}>
             Stay ahead of change. Innovate the future
           </p>
-          <a
-            href="https://nus.campuslabs.com/engage/submitter/form/start/489879"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.registerButton}
-          >
-            REGISTER NOW
-          </a>
+          {registerButton}
         </div>
       </Slide>
       <div className={styles.description2}>
@@ -36,15 +41,7 @@ const Main = () => {
           <br />
           Innovate the future
         </p>
-        {/* <p className={styles.title}>LifeHack 2021</p> */}
-        <a
-          href="https://nus.campuslabs.com/engage/submitter/form/start/489879"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.registerButton}
-        >
-          REGISTER NOW
-        </a>
+        {registerButton}
       </div>
     </div>
   );
