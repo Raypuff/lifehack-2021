@@ -10,7 +10,7 @@ import { Links } from "../../Constants";
 const WorkshopItems = [
   {
     title: "Ultimate guide to winning your first Hackathon",
-    date: "19 July 4:00pm - 5:00pm",
+    date: "19 July, 4:00pm - 5:00pm",
     description:
       "So, you got an amazing hackathon idea - But that's not enough to win it! In this workshop, we show you the five essential ingredients on how to ace a hackathon.",
     organizer: "NUS StartIT",
@@ -37,7 +37,7 @@ const WorkshopItems = [
   },
   {
     title: "How to incorporate UI/UX concepts into your designs",
-    date: "21 July 5:00pm - 6:00pm",
+    date: "21 July, 5:00pm - 6:00pm",
     description:
       "Hear directly from industry professionals how to make designs that are not just beautiful but functional!",
     organizer: "Websparks",
@@ -46,7 +46,7 @@ const WorkshopItems = [
   },
   {
     title: "Web development with React",
-    date: "21 July 7:00pm - 10:00pm",
+    date: "21 July, 7:00pm - 10:00pm",
     description:
       "Learn how you can easily use React to create your very first interactive website!",
     organizer: "Websparks",
