@@ -10,11 +10,11 @@ const About = () => {
       <div className={styles.sponsors} name="about">
         <img className={styles.image} alt="ABOUT" src={aboutLogo} />
         <p className={styles.title}>
-          LifeHack 2021 is a 24h virtual hackathon that wants you to develop
-          innovative software solutions that can make a change in peoples’ lives
-          in a post-COVID world. Through exciting workshops and events, you will
-          have the chance to learn various technologies from web development to
-          utilizing clouds services.
+          LifeHack 2021 is a 24-Hour virtual hackathon that wants you to develop
+          innovative software solutions to make a positive change in peoples’
+          lives in a post-COVID world. Through exciting workshops and events,
+          you will have the chance to learn various technologies from web
+          development to utilizing cloud services.
         </p>
         <br />
         <p className={styles.title2}>
