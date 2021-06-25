@@ -32,10 +32,7 @@
   column-gap: 5rem;
   row-gap: 3rem;
   margin-bottom: 2rem;
-  /* display: flex;
-	flex-wrap: wrap;
-	gap: 5rem;
-	width: 80%; */
+  place-items: center;
 }
 
 .logo {
@@ -44,6 +41,11 @@
   max-width: 22rem;
   /* max-height: 25vh; */
   object-fit: contain;
+}
+
+.csitLogo {
+  composes: logo;
+  max-width: 20rem;
 }
 
 .smallLogo {
@@ -62,9 +64,16 @@
   .logoContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .logo {
     max-width: 70vw;
+  }
+  .micronLogo {
+    margin-top: 0;
+  }
+  .csitLogo {
+    max-width: 68vw;
   }
   .smallLogo {
     max-width: 50vw;
