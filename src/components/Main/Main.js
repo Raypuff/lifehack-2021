@@ -29,7 +29,7 @@ const Main = () => {
           <p className={styles.title}>LifeHack 2021</p>
           <p className={styles.date}>23-24 July</p>
           <p className={styles.subtitle}>
-            Stay ahead of change. Innovate the future
+            Stay ahead of change. Innovate the future.
           </p>
           {registerButton}
         </div>
