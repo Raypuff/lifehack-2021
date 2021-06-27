@@ -11,6 +11,6 @@ const Links = {
   compclub: "https://nuscomputing.com/",
 };
 
-const email = "academic.liaison@nuscomputing.com";
+const email = "lifehack@nuscomputing.com";
 
 export { Links, email };
