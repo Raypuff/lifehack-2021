@@ -43,11 +43,11 @@ const timeline = [
   },
   {
     title: "Announcement of Winners",
-    datetime: "25 July, 12:00pm",
+    datetime: "25 July, 1:30pm",
   },
   {
     title: "Closing Ceremony and Prize Presentation",
-    datetime: "25 July, 3:00pm - 4:30pm",
+    datetime: "25 July, 3:00pm - 6:00pm",
   },
 ];
 
