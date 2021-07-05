@@ -18,10 +18,10 @@ const WorkshopItems = [
     organizerLink: Links.startIT,
   },
   {
-    title: "How CSIT looks into AI",
+    title: "Building a fake news detector with AI",
     date: "19 July, 7:00pm - 8:30pm",
     description:
-      "As Artificial Intelligence becomes more relevant by the day, how is CSIT utilizing AI with data science?",
+      "Learn how you can build an AI-based (Machine Learning) model to detect fake news!",
     organizer: "CSIT",
     organizerLogo: CSITLogo,
     organizerLink: Links.csit,
