@@ -25,7 +25,8 @@ const smallPrizes = [
   "Most Impressive Pre-University Hack",
   "Most Outstanding Undergraduate Hack",
   "Most Relevant To Both Themes",
-  "Most Boomer-Friendly Hack",
+  "Most Boomer-Friendly",
+  "Most Impressive Usage of Data",
   "Luckiest Team",
   "Shh!! Secret Special Category...",
 ];
