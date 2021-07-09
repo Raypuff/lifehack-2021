@@ -7,6 +7,7 @@ import websparksLogo from "../../images/organizations/websparks-logo.png";
 import dstaLogo from "../../images/organizations/dsta-logo.png";
 import startitLogo from "../../images/organizations/startit-logo.png";
 import nusHackersLogo from "../../images/organizations/nus-hackers.svg";
+import greyhatsLogo from "../../images/organizations/greyhats-logo.png";
 import socLogo from "../../images/organizations/soc-logo.png";
 import compClubLogo from "../../images/organizations/comp_club-logo.png";
 import { Links } from "../../Constants";
@@ -53,14 +54,14 @@ const Sponsors = () => {
                 loading="lazy"
               />
             </a>
-            <a href={Links.shopee} target="blank" rel="noreferrer">
+            {/* <a href={Links.shopee} target="blank" rel="noreferrer">
               <img
                 className={styles.smallLogo}
                 src={shopeeLogo}
                 alt="Shopee"
                 loading="lazy"
               />
-            </a>
+            </a> */}
             <a href={Links.dsta} target="blank" rel="noreferrer">
               <img
                 className={styles.smallLogo}
@@ -82,6 +83,14 @@ const Sponsors = () => {
                 className={styles.smallLogo}
                 src={startitLogo}
                 alt="StartIT"
+                loading="lazy"
+              />
+            </a>
+            <a href={Links.greyhats} target="blank" rel="noreferrer">
+              <img
+                className={styles.greyhatsLogo}
+                src={greyhatsLogo}
+                alt="Greyhats"
                 loading="lazy"
               />
             </a>

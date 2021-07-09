@@ -6,6 +6,7 @@ const Links = {
   shopee: "https://shopee.sg/",
   dsta: "https://www.dsta.gov.sg/",
   nusHackers: "https://www.nushackers.org/",
+  greyhats: "https://nusgreyhats.org/",
   startIT: "https://www.instagram.com/nusstartit/",
   soc: "https://www.comp.nus.edu.sg/",
   compclub: "https://nuscomputing.com/",

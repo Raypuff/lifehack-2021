@@ -54,6 +54,11 @@
   /* max-height: 15vh; */
 }
 
+.greyhatsLogo {
+  composes: logo;
+  max-width: 8rem;
+}
+
 @media screen and (max-width: 768px) {
   .sponsors {
     padding-bottom: 5vh;
@@ -77,5 +82,8 @@
   }
   .smallLogo {
     max-width: 50vw;
+  }
+  .greyhatsLogo {
+    max-width: 30vw;
   }
 }
