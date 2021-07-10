@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import micronLogo from "../../images/organizations/micron-logo.png";
 import csitLogo from "../../images/organizations/csit-logo.png";
-import shopeeLogo from "../../images/organizations/shopee-logo.png";
+// import shopeeLogo from "../../images/organizations/shopee-logo.png";
 import websparksLogo from "../../images/organizations/websparks-logo.png";
 import dstaLogo from "../../images/organizations/dsta-logo.png";
 import startitLogo from "../../images/organizations/startit-logo.png";
