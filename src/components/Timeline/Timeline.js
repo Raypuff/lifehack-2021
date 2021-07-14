@@ -27,7 +27,10 @@ const useStyles = makeStyles((_theme) => ({
 }));
 
 const timeline = [
-  { title: "Registration", datetime: "25 June - 16 July" },
+  {
+    title: "Registration",
+    datetime: `25 June - 16 July (Closed early on 13 July due to overwhelming responses)`,
+  },
   { title: "Workshops", datetime: "19 July - 22 July" },
   {
     title: "Opening Ceremony",
