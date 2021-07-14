@@ -1,7 +1,7 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import Slide from "react-reveal/Slide";
-import { Links } from "../../Constants";
+// import { Links } from "../../Constants";
 import { Link } from "react-scroll";
 import logo from "../../images/lifehack-logo.png";
 import styles from "./Main.module.css";

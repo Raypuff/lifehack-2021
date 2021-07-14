@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Tada from "react-reveal/Tada";
-import { Links } from "../../Constants";
+// import { Links } from "../../Constants";
 import styles from "./Register.module.css";
 
 const Register = () => {

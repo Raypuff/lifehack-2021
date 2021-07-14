@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import HeaderItem from "./HeaderItem";
 import logo from "../../images/lifehack-logo.svg";
 import styles from "./Header.module.css";
-import { Links } from "../../Constants";
+// import { Links } from "../../Constants";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
