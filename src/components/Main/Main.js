@@ -2,18 +2,27 @@ import React from "react";
 import Bounce from "react-reveal/Bounce";
 import Slide from "react-reveal/Slide";
 import { Links } from "../../Constants";
+import { Link } from "react-scroll";
 import logo from "../../images/lifehack-logo.png";
 import styles from "./Main.module.css";
 
 const registerButton = (
-  <a
-    href={Links.registration}
-    target="_blank"
-    rel="noreferrer"
+  // <a
+  //   href={Links.registration}
+  //   target="_blank"
+  //   rel="noreferrer"
+  //   className={styles.registerButton}
+  // >
+  //   REGISTER NOW
+  // </a>
+  <Link
+    to="register"
+    smooth={true}
+    offset={-68}
     className={styles.registerButton}
   >
     REGISTER NOW
-  </a>
+  </Link>
 );
 
 const Main = () => {

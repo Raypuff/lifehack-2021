@@ -14,14 +14,23 @@ const Register = () => {
         </p>
       </Fade>
       <Tada>
-        <a
+        {/* CLOSE SIGN UPS */}
+        {/* <a
           href={Links.registration}
           target="_blank"
           rel="noreferrer"
           className={styles.registerButton}
         >
           REGISTER NOW
-        </a>
+        </a> */}
+        <div className={styles.closedText}>
+          Due to overwhelming response and sign ups (even after opening up 30
+          slots more than the intended 100 teams), we have unfortunately decided
+          to close registration early on 13th July 2021.
+          <br />
+          <br />
+          Thank you so much to everyone who signed up!
+        </div>
       </Tada>
     </div>
   );

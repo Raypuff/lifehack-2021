@@ -61,7 +61,7 @@ const Header = () => {
           <HeaderItem to="sponsors" onClick={closeNav} content="Sponsors" />
         </li>
         <li>
-          <a
+          {/* <a
             href={Links.registration}
             target="_blank"
             rel="noreferrer"
@@ -69,7 +69,8 @@ const Header = () => {
             onClick={closeNav}
           >
             REGISTER NOW
-          </a>
+          </a> */}
+          <HeaderItem to="register" onClick={closeNav} content="REGISTER NOW" />
         </li>
       </ul>
       {burger}
