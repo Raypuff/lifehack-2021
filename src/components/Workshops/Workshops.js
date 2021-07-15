@@ -27,6 +27,15 @@ const WorkshopItems = [
     organizerLink: Links.csit,
   },
   {
+    title: "Using Python to make your first Telegram bot",
+    date: "20 July, 7:00pm - 9:00pm",
+    description:
+      "Learn how you can use Python to create your very own Telegram bot!",
+    organizer: "NUS Hackers",
+    organizerLogo: NusHackersLogo,
+    organizerLink: Links.nusHackers,
+  },
+  {
     title: "How to incorporate UI/UX concepts into your designs",
     date: "21 July, 5:00pm - 6:00pm",
     description:
@@ -44,15 +53,7 @@ const WorkshopItems = [
     organizerLogo: WebsparksLogo,
     organizerLink: Links.websparks,
   },
-  {
-    title: "Using Python to make your first Telegram bot",
-    date: "22 July, 4:00pm - 6:00pm",
-    description:
-      "Learn how you can use Python to create your very own Telegram bot!",
-    organizer: "NUS Hackers",
-    organizerLogo: NusHackersLogo,
-    organizerLink: Links.nusHackers,
-  },
+
   {
     title: "Operationalizing your applications at scale in the cloud!",
     date: "22 July, 7:00pm - 8:30pm",
