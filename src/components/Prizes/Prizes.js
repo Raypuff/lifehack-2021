@@ -85,7 +85,11 @@ const smallPrizes = [
     "Cat Cafe",
     "https://lifehack-2021.devpost.com/submissions/250041-tealturtle-050",
   ],
-  // ["Most Impressive Usage of Data"],
+  [
+    "Most Impressive Usage of Data",
+    "Nirvana",
+    "https://lifehack-2021.devpost.com/submissions/250056-lifehackers-055-nirvana",
+  ],
   [
     "Luckiest Team",
     "Darubi",
