@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40e21b34.chunk.css",
+    "main.js": "/static/js/main.7ad23faf.chunk.js",
+    "main.js.map": "/static/js/main.7ad23faf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09bee754.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09bee754.js.map",
+    "static/css/2.1ca50200.chunk.css": "/static/css/2.1ca50200.chunk.css",
+    "static/js/2.a1f2ae12.chunk.js": "/static/js/2.a1f2ae12.chunk.js",
+    "static/js/2.a1f2ae12.chunk.js.map": "/static/js/2.a1f2ae12.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1ca50200.chunk.css.map": "/static/css/2.1ca50200.chunk.css.map",
+    "static/css/main.40e21b34.chunk.css.map": "/static/css/main.40e21b34.chunk.css.map",
+    "static/js/2.a1f2ae12.chunk.js.LICENSE.txt": "/static/js/2.a1f2ae12.chunk.js.LICENSE.txt",
+    "static/media/about.bc9a4fb0.png": "/static/media/about.bc9a4fb0.png",
+    "static/media/comp_club-logo.79cd27bc.png": "/static/media/comp_club-logo.79cd27bc.png",
+    "static/media/csit-logo.4dc2f29c.png": "/static/media/csit-logo.4dc2f29c.png",
+    "static/media/dsta-logo.6651dec5.png": "/static/media/dsta-logo.6651dec5.png",
+    "static/media/education.6304fda8.png": "/static/media/education.6304fda8.png",
+    "static/media/greyhats-logo.f86e41f4.png": "/static/media/greyhats-logo.f86e41f4.png",
+    "static/media/idea1.6e6faeb1.svg": "/static/media/idea1.6e6faeb1.svg",
+    "static/media/idea2.3287b5d2.svg": "/static/media/idea2.3287b5d2.svg",
+    "static/media/idea3.b435d359.svg": "/static/media/idea3.b435d359.svg",
+    "static/media/lifehack-logo.10bed05c.png": "/static/media/lifehack-logo.10bed05c.png",
+    "static/media/lifehack-logo.cade3287.svg": "/static/media/lifehack-logo.cade3287.svg",
+    "static/media/micron-logo.3f860590.png": "/static/media/micron-logo.3f860590.png",
+    "static/media/nus-hackers.e28ec67b.svg": "/static/media/nus-hackers.e28ec67b.svg",
+    "static/media/index.css": "/static/media/roboto-latin-900italic.cb5ad999.woff2",
+    "static/media/soc-logo.061fe4ae.png": "/static/media/soc-logo.061fe4ae.png",
+    "static/media/social.b0366b79.png": "/static/media/social.b0366b79.png",
+    "static/media/startit-logo.a37a0cfd.png": "/static/media/startit-logo.a37a0cfd.png",
+    "static/media/websparks-logo.749d93aa.png": "/static/media/websparks-logo.749d93aa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09bee754.js",
+    "static/css/2.1ca50200.chunk.css",
+    "static/js/2.a1f2ae12.chunk.js",
+    "static/css/main.40e21b34.chunk.css",
+    "static/js/main.7ad23faf.chunk.js"
+  ]
+}
