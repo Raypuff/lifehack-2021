@@ -7,7 +7,14 @@ const SmallPrize = (props) => {
     <Fade bottom>
       <div className={styles.smallPrizeContainer}>
         <p className={styles.smallPrizeLabel}>{props.label}</p>
-        <p className={styles.smallPrizeAward}>{props.award}</p>
+        <a
+          className={styles.smallPrizeLink}
+          href={props.link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {props.winner}
+        </a>
       </div>
     </Fade>
   );

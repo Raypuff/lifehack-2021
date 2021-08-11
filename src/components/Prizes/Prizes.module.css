@@ -54,10 +54,16 @@
   padding: 0;
 }
 
+.bigPrizeLink {
+  color: #193f76;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
 .bigPrizeAward {
   font-size: 2rem;
   font-weight: 500;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
   padding: 0;
   white-space: nowrap;
 }
@@ -95,6 +101,12 @@
   font-size: 1.3rem;
   margin: 0.5rem 0;
   padding: 0;
+}
+
+.smallPrizeLink {
+  /* text-decoration: none; */
+  color: #193f76;
+  font-size: 1.25rem;
 }
 
 .smallPrizeAward {
